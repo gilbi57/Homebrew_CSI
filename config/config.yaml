@@ -2,6 +2,8 @@
 
 config:
   - config_hardware.yaml
+  - config_settings.yaml
+  - config_keyboard.yaml
                           
 game:
   balls_per_game: 3

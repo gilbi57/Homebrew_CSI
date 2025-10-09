@@ -1,0 +1,7 @@
+#config_version=6
+
+keyboard:
+  a:
+    switch: s_left_flipper
+  z:
+    switch: s_right_flipper

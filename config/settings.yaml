@@ -1,0 +1,537 @@
+#config_version=6
+
+light_settings:
+  default_fade_ms: 100
+
+settings:
+  balls_per_game:
+    sort: 10
+    label: Balls per game
+    key_type: int
+    default: 3
+    values:
+      1: '1'
+      2: '2'
+      3: '3 (default)'
+      4: '4'
+      5: '5'
+
+  max_players:
+    sort: 11
+    label: Max players
+    key_type: int
+    default: 4
+    values:
+      1: '1'
+      2: '2'
+      3: '3'
+      4: '4 (default)'
+
+  flipper_main_coil_power:
+    sort: 151
+    label: Flipper main power
+    key_type: int
+    default: 24
+    values:
+      12: '12 ms'
+      15: '15 ms'
+      18: '18 ms'
+      20: '20 ms'
+      24: '24 ms (default)'
+      28: '28 ms'
+      32: '32 ms'
+      36: '36 ms'
+      40: '40 ms'
+
+  # flipper_hold_coil_power: #Coil::default_hold_power doesn't support template variables
+  #   sort: 152
+  #   label: Flipper hold power (%)
+  #   key_type: float
+  #   default: 0.5
+  #   values:
+  #     0.125: '1/8'
+  #     0.25: '1/4'
+  #     0.375: '3/8'
+  #     0.5: '1/2 (default)'
+  #     0.625: '5/8'
+  #     0.75: '3/4'
+  #     0.875: '7/8'
+  #     1: 'Full'
+
+  upper_flipper_main_coil_power:
+    sort: 153
+    label: Upper flipper main power
+    key_type: int
+    default: 24
+    values:
+      12: '12 ms'
+      15: '15 ms'
+      18: '18 ms'
+      20: '20 ms'
+      24: '24 ms (default)'
+      28: '28 ms'
+      32: '32 ms'
+      36: '36 ms'
+      40: '40 ms'
+
+  auto_plunger_coil_power:
+    sort: 155
+    label: Auto launch power
+    key_type: int
+    default: 18
+    values:
+      9: '9 ms'
+      12: '12 ms'
+      15: '15 ms'
+      18: '18 ms (default)'
+      21: '21 ms'
+      24: '24 ms'
+      28: '28 ms'
+      32: '32 ms'
+      36: '36 ms'
+      40: '40 ms'
+
+  trough_eject_coil_power:
+    sort: 156
+    label: Trough ball eject power
+    key_type: int
+    default: 20
+    values:
+      12: '12 ms'
+      15: '15 ms'
+      18: '18 ms'
+      20: '20 ms (default)'
+      24: '24 ms'
+      28: '28 ms'
+      32: '32 ms'
+      36: '36 ms'
+      40: '40 ms'
+
+  slingshot_power:
+    sort: 157
+    label: Slingshot power
+    key_type: int
+    default: 12
+    values:
+      9: '9 ms'
+      12: '12 ms (default)'
+      15: '15 ms'
+      18: '18 ms'
+      21: '21 ms'
+      24: '24 ms'
+
+  pop_bumper_power:
+    sort: 158
+    label: Pop bumper power
+    key_type: int
+    default: 9
+    values:
+      7: '7 ms'
+      9: '9 ms (default)'
+      11: '11 ms'
+      13: '13 ms'
+      16: '16 ms'
+      20: '20 ms'
+
+  reduced_level_pop_bumper_power:
+    sort: 159
+    label: Pop bumper power
+    key_type: int
+    default: 9
+    values:
+      5: '5 ms'
+      7: '7 ms'
+      9: '9 ms (default)'
+      12: '12 ms'
+      15: '15 ms'
+      18: '18 ms'
+
+  gate_power:
+    sort: 160
+    label: Controlled ball gate pulse power
+    key_type: int
+    default: 26
+    values:
+      18: '18 ms'
+      22: '22 ms'
+      26: '26 ms (default)'
+      30: '30 ms'
+      34: '34 ms'
+
+  diverter_flipper_power:
+    sort: 161
+    label: Upper diverter (flipper) pulse power
+    key_type: int
+    default: 25
+    values:
+      12: '12 ms'
+      15: '15 ms'
+      20: '20 ms'
+      25: '25 ms (default)'
+      30: '30 ms'
+      35: '35 ms'
+
+  slot_bank_reset_power:
+    sort: 162
+    label: Slot (three-target) bank reset power
+    key_type: int
+    default: 90
+    values:
+      50: '50 ms'
+      60: '60 ms'
+      70: '70 ms (default)'
+      80: '80 ms'
+      90: '90 ms'
+
+  slot_bank_knockdown_power:
+    sort: 163
+    label: Slot (three-target) bank single-target knockdown power
+    key_type: int
+    default: 20
+    values:
+      14: '14 ms'
+      17: '17 ms'
+      20: '20 ms (default)'
+      23: '23 ms'
+      27: '27 ms'
+
+  left_vuk_power:
+    sort: 164
+    label: Left side VUK eject power
+    key_type: int
+    default: 16
+    values:
+      13: '13 ms'
+      16: '16 ms (default)'
+      19: '19 ms'
+      22: '22 ms'
+      25: '25 ms'
+
+  right_vuk_power:
+    sort: 165
+    label: Right side VUK eject power
+    key_type: int
+    default: 12
+    values:
+      10: '10 ms'
+      12: '12 ms (show default)'
+      15: '15 ms'
+      18: '18 ms'
+      21: '21 ms (likely default when scoop lifted)'
+      24: '24 ms'
+      28: '28 ms'
+
+  outlane_post_power:
+    sort: 166
+    label: Right outlane post pulse power
+    key_type: int
+    default: 20
+    values:
+      15: '15 ms'
+      20: '20 ms (default)'
+      25: '25 ms'
+      30: '30 ms'
+
+  saver_post_power:
+    sort: 167
+    label: Center save post pulse power
+    key_type: int
+    default: 20
+    values:
+      15: '15 ms'
+      20: '20 ms (default)'
+      25: '25 ms'
+      30: '30 ms'
+
+  saver_post_time:
+    sort: 168
+    key_type: int
+    label: Saver post basic save up time
+    default: 6000
+    values:
+      4000: '4s'
+      6000: '6s'
+      8000: '8s'
+      10000: '10s'
+      12000: '12s'
+
+  # ball_search_enabled: #Actually found in ball_search.yaml
+  #   sort: 199
+
+  # LATER: Diverter#activation_time doesnt support settings or templates yet
+  # open_diverter_time_standard:
+  #   sort: 180
+  #   label: Subway diverter open time - standard occurrence
+  #   key_type: int
+  #   default: 8000
+  #   values:
+  #     6000: '6 seconds'
+  #     7000: '7 seconds'
+  #     8000: '8 seconds (default)'
+  #     10000: '10 seconds'
+  #     12000: '12 seconds'
+
+  # open_diverter_time_skillshot:
+  #   sort: 181
+  #   label: Subway diverter open time - skillshot
+  #   key_type: int
+  #   default: 12000
+  #   values:
+  #     8000: '8 seconds'
+  #     10000: '10 seconds'
+  #     12000: '12 seconds (default)'
+  #     14000: '14 seconds'
+  #     16000: '16 seconds'
+
+  achievement_goal_power_hits:
+    sort: 202
+    label: Achievement 2 Goal - Power Hits
+    key_type: int
+    default: 50
+    values:
+      40: '40'
+      50: '50'
+      60: '60'
+  achievement_goal_captures:
+    sort: 203
+    label: Achievement 3 Goal - Captures (VUK/Diverter)
+    key_type: int
+    default: 15
+    values:
+      10: '10'
+      15: '15'
+      20: '20'
+  achievement_goal_ramps:
+    sort: 204
+    label: Achievement 4 Goal - Ramp Hits
+    key_type: int
+    default: 20
+    values:
+      16: '16'
+      20: '20'
+      25: '25'
+  achievement_goal_spins:
+    sort: 205
+    label: Achievement 5 Goal - Spinner Spins
+    key_type: int
+    default: 100
+    values:
+      64: '64'
+      100: '100'
+      150: '150'
+  achievement_goal_targets:
+    sort: 206
+    label: Achievement 6 Goal - Target Hits
+    key_type: int
+    default: 24
+    values:
+      16: '16'
+      24: '24'
+      32: '32'
+
+  burnination_fire_level_one:
+    sort: 301
+    label: Burnination mode - target fire level one
+    key_type: int
+    default: 4
+    values:
+      4: '4'
+      6: '6 (default)'
+      8: '8'
+      10: '10'
+  burnination_fire_level_two:
+    sort: 302
+    label: Burnination mode - target fire level two
+    key_type: int
+    default: 10
+    values:
+      7: '7'
+      10: '10 (default)'
+      12: '12'
+      15: '15'
+      18: '18'
+  burnination_fire_level_goal:
+    sort: 304
+    label: Burnination mode - target fire level per-pop
+    key_type: int
+    default: 20
+    values:
+      12: '12'
+      16: '16'
+      20: '20 (default)'
+      25: '25'
+      30: '30'
+
+  burnination_pop_hit_increment:
+    sort: 305
+    label: Burnination mode - levels added per pop hit
+    key_type: int
+    default: 3
+    values:
+      1: '1'
+      2: '2'
+      3: '3 (default)'
+      4: '4'
+      5: '5'
+  burnination_rollover_ontarget_increment:
+    sort: 306
+    label: Burnination mode - levels added per on-target rollover hit
+    key_type: int
+    default: 5
+    values:
+      0: '0'
+      1: '1'
+      2: '2'
+      3: '3'
+      4: '4'
+      5: '5 (default)'
+      6: '6'
+  burnination_rollover_offtarget_increment:
+    sort: 307
+    label: Burnination mode - levels added per off-target rollover hit
+    key_type: int
+    default: 1
+    values:
+      0: '0'
+      1: '1 (default)'
+      2: '2'
+      3: '3'
+      4: '4'
+
+  burnination_timer_seconds:
+    sort: 310
+    label: Burnination mode - overall length
+    key_type: int
+    default: 55
+    values:
+      10: '10 seconds (for testing)'
+      30: '30 seconds'
+      45: '45 seconds'
+      55: '55 seconds (default)'
+      65: '65 seconds'
+      75: '75 seconds'
+
+  burnination_pop_countdown_seconds:
+    sort: 311
+    label: Burnination mode - seconds per pop burndown reduction
+    key_type: int
+    default: 6
+    values:
+      4: '4 seconds'
+      5: '5 seconds'
+      6: '6 seconds (default)'
+      7: '7 seconds'
+      8: '8 seconds'
+
+  burnination_pop_hit_add_time:
+    sort: 312
+    label: Burnination mode - time added per pop hit
+    key_type: float
+    default: 1.0
+    values:
+      0.5: '.5 seconds'
+      1.0: '1 second (default)'
+      1.5: '1.5 seconds'
+      2.0: '2 seconds'
+      3.0: '3 seconds'
+
+  cheat_multiball_spins_to_qualify:
+    sort: 320
+    label: Cheat Multiball - spins required to qualify
+    key_type: int
+    default: 30
+    values:
+      20: '20 spins'
+      30: '30 spins (default)'
+      40: '40 spins'
+      60: '60 spins'
+
+  warnings_to_tilt:
+    label: "Tilt on warning number:"
+    values:
+      0: "Tilt Disabled"
+      1: "1"
+      2: "2"
+      3: "3 (default)"
+      5: "5"
+      10: "10"
+    default: 3
+    key_type: int
+    sort: 401
+  tilt_settle_time:
+    label: Time to wait on fully tilting out to settle bob
+    values:
+      3000: "3s"
+      5000: "5s (default)"
+      8000: "8s"
+    default: 5000
+    key_type: int
+    sort: 402
+  tilt_multiple_hit_window:
+    label: Tilt Sensitivity
+    values:
+      200: "very sensitive"
+      350: "sensitive"
+      550: "default"
+      750: "loose"
+      1000: "very loose"
+      2000: "generous"
+    default: 550
+    key_type: int
+    sort: 403
+
+  attract_carousel_timer_tick:
+    label: Attract Carousel Rotation Time
+    values:
+      3.0: "3 seconds"
+      5.0: "5 seconds (default)"
+      7.0: "7 seconds"
+      10.0: "10 seconds"
+    default: 5.0
+    key_type: float
+    sort: 501
+
+  ball_score_tier_0_max:
+    label: Ball score worst tier max score
+    sort: 650
+    key_type: int
+    default: 5000
+    values:
+      1000: '1k'
+      5000: '5k (default)'
+      10000: '10k'
+      20000: '20k'
+
+  ball_score_tier_1_max:
+    label: Ball score 2nd worst tier max score
+    sort: 651
+    key_type: int
+    default: 20000
+    values:
+      10000: '10k'
+      20000: '20k (default)'
+      30000: '30k'
+      40000: '40k'
+
+  ball_score_tier_2_max:
+    label: Ball score mid tier max score
+    sort: 652
+    key_type: int
+    default: 40000
+    values:
+      20000: '20k'
+      40000: '40k (default)'
+      60000: '60k'
+      80000: '80k'
+
+  ball_score_tier_3_max:
+    label: Ball score second best tier max score
+    sort: 653
+    key_type: int
+    default: 80000
+    values:
+      40000: '40k'
+      60000: '60k'
+      80000: '80k (default)'
+      100000: '100k'
+      150000: '150k'

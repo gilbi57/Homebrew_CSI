@@ -1,0 +1,15 @@
+#config_version=6
+
+
+config:
+  - settings.yaml
+  - config_hardware.yaml
+                          
+game:
+  balls_per_game: 3
+  max_players: 4
+
+modes:
+  - attract
+  - base
+  

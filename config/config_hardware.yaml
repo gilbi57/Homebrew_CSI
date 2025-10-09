@@ -1,0 +1,162 @@
+#config_version=6
+
+hardware:
+  platform: opp
+  driverboards: gen2
+  
+opp:
+   ports: /dev/ttyACM0, /dev/ttyACM1 # change if your Cobra board uses different ports
+
+switches:
+  s_left_flipper:
+    number: X
+    tags: left_flipper
+  s_right_flipper:
+    number: X
+    tags: right_flipper
+    
+
+  # Slingshoots
+  s_sling_left:
+    number: X
+  s_sling_right:
+    number: X
+
+
+#  s_start:
+#    number: 0-0-3
+#    tags: start
+    
+#  s_trough1:
+#    number: 2
+#  s_trough2:
+#    number: 3
+#  s_trough3:
+#    number: 4
+#  s_trough4:
+#    number: 5
+#  s_trough5:
+#    number: 6
+#  s_trough6:
+#    number: 7
+#    type: NC
+#  s_trough_jam:
+#    number: 8
+#    type: NC
+    
+#  s_plunger_lane:
+#    number: 2-6
+#  s_launch_button:
+#    number: 1-5
+    
+#  s_popbumper1:
+#    number: 0-0-4
+#  s_popbumper2:
+#    number: 0-0-5
+#  s_popbumper3:
+#    number: 0-0-6
+    
+#  s_right_inlane:
+#    number: 0-0-7
+#    tags: playfield_active
+#  s_right_outlane:
+#    number: 0-0-8
+#    tags: playfield_active
+#  s_left_inlane:
+#    number: 0-0-9
+#    tags: playfield_active
+#  s_left_outlane:
+#    number: 0-0-10
+#    tags: playfield_active
+
+
+#virtual_platform_start_active_switches:
+#  - s_trough1
+#  - s_trough2
+#  - s_trough3
+#  - s_trough4
+#  - s_trough5
+#  - s_trough6
+    
+coils:
+  c_flipper_left_main:
+    number: X
+    allow_enable: true
+  c_flipper_right_main:
+    number: X
+    allow_enable: true
+
+  c_sling_left:
+    number: X
+    default_pulse_ms: 15
+  c_sling_right:
+    number: X
+    default_pulse_ms: 15
+
+
+#  c_trough_eject:
+#    number: 1-1-5
+#    default_pulse_ms: 20
+#  c_plunger:
+#    number: 1-1-6
+#    default_pulse_ms: 20
+
+#  c_popbumper1:
+#    number: 1-1-7
+#    default_pulse_ms: 23
+#  c_popbumper2:
+#    number: 1-1-8
+#    default_pulse_ms: 23
+#  c_popbumper3:
+#    number: 1-1-9
+#    default_pulse_ms: 23
+
+autofire_coils:
+#  ac_popbumper1:
+#    coil: c_popbumper1
+#    switch: s_popbumper1
+#  ac_popbumper2:
+#    coil: c_popbumper2
+#    switch: s_popbumper2
+#  ac_popbumper3:
+#    coil: c_popbumper3
+#    switch: s_popbumper3
+  ac_slingshot_left:
+    coil: c_sling_left
+    switch: s_sling_left
+  ac_slingshot_right:
+    coil: c_sling_right
+    switch: s_sling_right
+    
+    
+#ball_devices:
+#  bd_trough:
+#    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
+#    eject_coil: c_trough_eject
+#    tags: trough, home, drain
+#    jam_switch: s_trough_jam
+#    eject_coil_jam_pulse: 15ms
+#    eject_targets: bd_plunger
+#    eject_timeouts: 3s
+#    debug: true
+#  bd_plunger:
+#    ball_switches: s_plunger_lane
+#    eject_coil: c_plunger
+#    mechanical_eject: true
+#    player_controlled_eject_event: s_launch_button_active
+#    eject_timeouts: 3s
+
+#playfields:
+#  playfield:
+#    tags: default
+#    default_source_device: bd_plunger
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    activation_switch: s_left_flipper
+    enable_events: machine_reset_phase_3
+  right_flipper:
+    main_coil: c_flipper_right_main
+    activation_switch: s_right_flipper
+    enable_events: machine_reset_phase_3

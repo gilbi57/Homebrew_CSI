@@ -80,19 +80,20 @@ switches:
     
 coils:
   c_flipper_left_main:
-    number: X
+    number: 0-0-8
+    default_pulse_ms: 40
     allow_enable: true
   c_flipper_right_main:
-    number: X
+    number: 0-0-9
+    default_pulse_ms: 40
     allow_enable: true
 
   c_sling_left:
-    number: X
+    number: 0-0-10
     default_pulse_ms: 15
   c_sling_right:
-    number: X
+    number: 0-0-11s
     default_pulse_ms: 15
-
 
 #  c_trough_eject:
 #    number: 1-1-5

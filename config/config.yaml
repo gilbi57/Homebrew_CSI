@@ -1,6 +1,5 @@
 #config_version=6
 
-
 config:
   - config_settings.yaml
   - config_hardware.yaml

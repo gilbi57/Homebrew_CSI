@@ -92,7 +92,7 @@ coils:
     number: 0-0-10
     default_pulse_ms: 15
   c_sling_right:
-    number: 0-0-11s
+    number: 0-0-11
     default_pulse_ms: 15
 
 #  c_trough_eject:

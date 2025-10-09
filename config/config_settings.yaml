@@ -43,21 +43,6 @@ settings:
       36: '36 ms'
       40: '40 ms'
 
-  # flipper_hold_coil_power: #Coil::default_hold_power doesn't support template variables
-  #   sort: 152
-  #   label: Flipper hold power (%)
-  #   key_type: float
-  #   default: 0.5
-  #   values:
-  #     0.125: '1/8'
-  #     0.25: '1/4'
-  #     0.375: '3/8'
-  #     0.5: '1/2 (default)'
-  #     0.625: '5/8'
-  #     0.75: '3/4'
-  #     0.875: '7/8'
-  #     1: 'Full'
-
   upper_flipper_main_coil_power:
     sort: 153
     label: Upper flipper main power
@@ -254,34 +239,6 @@ settings:
       8000: '8s'
       10000: '10s'
       12000: '12s'
-
-  # ball_search_enabled: #Actually found in ball_search.yaml
-  #   sort: 199
-
-  # LATER: Diverter#activation_time doesnt support settings or templates yet
-  # open_diverter_time_standard:
-  #   sort: 180
-  #   label: Subway diverter open time - standard occurrence
-  #   key_type: int
-  #   default: 8000
-  #   values:
-  #     6000: '6 seconds'
-  #     7000: '7 seconds'
-  #     8000: '8 seconds (default)'
-  #     10000: '10 seconds'
-  #     12000: '12 seconds'
-
-  # open_diverter_time_skillshot:
-  #   sort: 181
-  #   label: Subway diverter open time - skillshot
-  #   key_type: int
-  #   default: 12000
-  #   values:
-  #     8000: '8 seconds'
-  #     10000: '10 seconds'
-  #     12000: '12 seconds (default)'
-  #     14000: '14 seconds'
-  #     16000: '16 seconds'
 
   achievement_goal_power_hits:
     sort: 202

@@ -2,7 +2,7 @@
 
 
 config:
-  - settings.yaml
+  - config_settings.yaml
   - config_hardware.yaml
                           
 game:

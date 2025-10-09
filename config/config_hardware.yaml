@@ -9,18 +9,18 @@ opp:
 
 switches:
   s_left_flipper:
-    number: X
+    number: 0-0-8
     tags: left_flipper
   s_right_flipper:
-    number: X
+    number: 0-0-9
     tags: right_flipper
     
 
   # Slingshoots
   s_sling_left:
-    number: X
+    number: 0-0-10
   s_sling_right:
-    number: X
+    number: 0-0-11
 
 
 #  s_start:

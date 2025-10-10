@@ -1,0 +1,61 @@
+2025-10-09 22:38:07,803 : INFO : root : Loading config.
+2025-10-09 22:38:07,804 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-09 22:38:07,804 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-10-09 22:38:07,815 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-09 22:38:07,816 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-10-09 22:38:07,816 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-09 22:38:07,816 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-10-09 22:38:07,816 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-10-09 22:38:07,816 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-10-09-22-38-07-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-09-22-38-07-mpf-mac.home.log'}
+2025-10-09 22:38:07,816 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-10-09 22:38:07,816 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-10-09 22:38:07,816 : INFO : Machine : Platform: darwin
+2025-10-09 22:38:07,816 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-10-09 22:38:07,816 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-10-09 22:38:07,816 : INFO : Machine : Initializing MPF...
+2025-10-09 22:38:07,837 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2025-10-09 22:38:07,837 : INFO : Machine : Shutting down...
+2025-10-09 22:38:07,837 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-09 22:38:07,838 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 246, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 336, in _initialize_platforms
+    result.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/platforms/opp/opp.py", line 107, in initialize
+    await self._connect_to_hardware()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/platforms/opp/opp.py", line 312, in _connect_to_hardware
+    await comm.connect()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/platforms/base_serial_communicator.py", line 47, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/platforms/base_serial_communicator.py", line 56, in _connect_to_hardware
+    self.reader, self.writer = await connector
+                               ^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/clock.py", line 151, in open_serial_connection
+    transport, _ = await create_serial_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kwargs)
+        ^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/serial_asyncio/__init__.py", line 448, in create_serial_connection
+    serial_instance = serial.serial_for_url(*args, **kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/serial/__init__.py", line 90, in serial_for_url
+    instance.open()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2025-10-09 22:38:07,840 : INFO : root : MPF run loop ended.

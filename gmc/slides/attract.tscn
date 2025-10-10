@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbdevx10xa73v"]
+
+[ext_resource type="Script" uid="uid://4w4se60272n" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://4w4se60272n"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1024.0
+offset_bottom = 768.0
+color = Color(0.15570156, 0.15570156, 0.52695745, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1024.0
+offset_bottom = 770.0
+theme_override_colors/font_color = Color(0.8509804, 0.11372549, 0.09411765, 1)
+theme_override_font_sizes/font_size = 60
+text = "Homebrew CSI"
+horizontal_alignment = 1
+vertical_alignment = 1

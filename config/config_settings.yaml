@@ -31,17 +31,22 @@ settings:
     sort: 151
     label: Flipper main power
     key_type: int
-    default: 24
+    default: 40
     values:
       12: '12 ms'
       15: '15 ms'
       18: '18 ms'
       20: '20 ms'
-      24: '24 ms (default)'
+      24: '24 ms'
       28: '28 ms'
       32: '32 ms'
       36: '36 ms'
-      40: '40 ms'
+      40: '40 ms (default)'
+      50: '50 ms'
+      60: '60 ms'
+      70: '70 ms'
+
+      
 
   upper_flipper_main_coil_power:
     sort: 153

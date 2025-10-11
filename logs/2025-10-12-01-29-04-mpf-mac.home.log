@@ -1,0 +1,211 @@
+2025-10-12 01:29:04,648 : INFO : root : Loading config.
+2025-10-12 01:29:04,649 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-12 01:29:04,649 : WARNING : ConfigProcessor : Config file in cache changed: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-12 01:29:04,649 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-10-12 01:29:04,663 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-10-12 01:29:04,664 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml.
+2025-10-12 01:29:04,664 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-12 01:29:04,678 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_settings.yaml
+2025-10-12 01:29:04,680 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_hardware.yaml
+2025-10-12 01:29:04,681 : INFO : ConfigProcessor : Config file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-10-12 01:29:04,693 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-12 01:29:04,693 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-10-12 01:29:04,693 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-12 01:29:04,693 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-10-12 01:29:04,693 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-10-12 01:29:04,693 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-10-12-01-29-04-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-12-01-29-04-mpf-mac.home.log'}
+2025-10-12 01:29:04,693 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-10-12 01:29:04,693 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-10-12 01:29:04,693 : INFO : Machine : Platform: darwin
+2025-10-12 01:29:04,693 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-10-12 01:29:04,693 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-10-12 01:29:04,693 : INFO : Machine : Initializing MPF...
+2025-10-12 01:29:04,706 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,708 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,708 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,709 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,709 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-12-01-29-04-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-10-12 01:29:04,714 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-12 01:29:04,717 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<SystemWideDevice.device_added_system_wide() done, defined at /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to evaluate and subscribe template ettings.flipper_main_coil_power with parameters {}. See error above.')>
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 847, in evaluate_and_subscribe_template
+    value, subscriptions = self._eval(template, parameters, True)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 717, in _eval_attribute
+    slice_value, subscription = self._eval(node.value, variables, subscribe)
+                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 771, in _eval_name
+    raise ValueError("Missing variable {}".format(node.id))
+ValueError: Missing variable ettings
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/devices/driver.py", line 99, in _initialize
+    self._calculate_pulse_ms_placeholder()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/devices/driver.py", line 82, in _calculate_pulse_ms_placeholder
+    self._pulse_ms, future = self.config['default_pulse_ms'].evaluate_and_subscribe({})
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 108, in evaluate_and_subscribe
+    result, subscriptions = self.placeholder_manager.evaluate_and_subscribe_template(self.template, parameters,
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                                                     self.text)
+                                                                                     ^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 854, in evaluate_and_subscribe_template
+    raise AssertionError("Failed to evaluate and subscribe template {} with parameters {}. "
+                         "See error above.".format(text, parameters)) from e
+AssertionError: Failed to evaluate and subscribe template ettings.flipper_main_coil_power with parameters {}. See error above.
+2025-10-12 01:29:04,719 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-12 01:29:04,719 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-12 01:29:04,719 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-12 01:29:04,719 : INFO : Machine : Shutting down...
+2025-10-12 01:29:04,719 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-12 01:29:04,720 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-12 01:29:04,720 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/text_ui.py", line 459, in _bcp_connection_attempt
+    self._pending_bcp_connection = PopUpDialog(self.screen,
+                                   ~~~~~~~~~~~^^^^^^^^^^^^^
+                                               'WAITING FOR MEDIA CONTROLLER {}:{}'.format(host, port), [])
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/asciimatics/widgets/popupdialog.py", line 39, in __init__
+    string_len = wcswidth if screen.unicode_aware else len
+                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unicode_aware'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                        ev_type=event[1],
+                        ^^^^^^^^^^^^^^^^^
+                        callback=event[2],
+                        ^^^^^^^^^^^^^^^^^^
+                        **event[3])
+                        ^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+        "Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connection_attempt of <mpf.core.text_ui.TextUi object at 0x102abcd50>>, priority=1, kwargs={}, key=UUID('09ab58d3-2b94-4db8-90c8-eb3e93933035'), condition=None, blocking_facility=None) for event bcp_connection_attempt. 'NoneType' object has no attribute 'unicode_aware'
+2025-10-12 01:29:04,722 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-12 01:29:04,724 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-12 01:29:04,724 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-12 01:29:04,724 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/text_ui.py", line 466, in _bcp_connected
+    self.scene.remove_effect(self._pending_bcp_connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/asciimatics/scene.py", line 85, in remove_effect
+    self._effects.remove(effect)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+ValueError: list.remove(x): x not in list
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                        ev_type=event[1],
+                        ^^^^^^^^^^^^^^^^^
+                        callback=event[2],
+                        ^^^^^^^^^^^^^^^^^^
+                        **event[3])
+                        ^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+        "Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connected of <mpf.core.text_ui.TextUi object at 0x102abcd50>>, priority=1, kwargs={}, key=UUID('b60d84ca-1dd6-45d1-ad68-a8ecba770eb4'), condition=None, blocking_facility=None) for event bcp_clients_connected. list.remove(x): x not in list
+2025-10-12 01:29:04,726 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-12 01:29:04,726 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-12 01:29:04,726 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/devices/driver.py", line 56, in _check_duplicate_coil_numbers
+    key = (coil.config['platform'], coil.hw_driver.number)
+                                    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'number'
+2025-10-12 01:29:05,720 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 847, in evaluate_and_subscribe_template
+    value, subscriptions = self._eval(template, parameters, True)
+                           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 717, in _eval_attribute
+    slice_value, subscription = self._eval(node.value, variables, subscribe)
+                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 778, in _eval
+    return self._eval_methods[type(node)](node, variables, subscribe)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 771, in _eval_name
+    raise ValueError("Missing variable {}".format(node.id))
+ValueError: Missing variable ettings
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/devices/driver.py", line 99, in _initialize
+    self._calculate_pulse_ms_placeholder()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/devices/driver.py", line 82, in _calculate_pulse_ms_placeholder
+    self._pulse_ms, future = self.config['default_pulse_ms'].evaluate_and_subscribe({})
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 108, in evaluate_and_subscribe
+    result, subscriptions = self.placeholder_manager.evaluate_and_subscribe_template(self.template, parameters,
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                                                     self.text)
+                                                                                     ^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 854, in evaluate_and_subscribe_template
+    raise AssertionError("Failed to evaluate and subscribe template {} with parameters {}. "
+                         "See error above.".format(text, parameters)) from e
+AssertionError: Failed to evaluate and subscribe template ettings.flipper_main_coil_power with parameters {}. See error above.
+2025-10-12 01:29:05,721 : INFO : root : MPF run loop ended.

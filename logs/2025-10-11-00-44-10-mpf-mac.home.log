@@ -33,3 +33,8 @@
 2025-10-11 00:44:10,117 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
 2025-10-11 00:44:10,118 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
 2025-10-11 00:44:10,118 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-11 00:48:30,950 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-11 00:48:30,950 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-11 00:48:30,950 : INFO : Machine : Shutting down...
+2025-10-11 00:48:30,950 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-11 00:48:31,953 : INFO : root : MPF run loop ended.

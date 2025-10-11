@@ -1,25 +1,38 @@
-[gd_scene load_steps=2 format=3 uid="uid://bbdevx10xa73v"]
+[gd_scene load_steps=3 format=3 uid="uid://bbdevx10xa73v"]
 
-[ext_resource type="Script" uid="uid://4w4se60272n" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+[ext_resource type="VideoStream" uid="uid://dmut5hhp7srrw" path="res://sample_640x360.ogv" id="2_m2s46"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_r1mnt")
-metadata/_custom_type_script = "uid://4w4se60272n"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
 offset_right = 1024.0
 offset_bottom = 768.0
-color = Color(0.15570156, 0.15570156, 0.52695745, 1)
+color = Color(0.05882353, 0.32156864, 1, 1)
 
-[node name="Label" type="Label" parent="."]
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
+offset_top = 1.0
 offset_right = 1024.0
 offset_bottom = 770.0
-theme_override_colors/font_color = Color(0.8509804, 0.11372549, 0.09411765, 1)
-theme_override_font_sizes/font_size = 60
-text = "Homebrew CSI"
+stream = ExtResource("2_m2s46")
+volume_db = 9.09
+autoplay = true
+expand = true
+loop = true
+
+[node name="Label" type="Label" parent="VideoStreamPlayer"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 1026.0
+offset_bottom = 360.0
+theme_override_colors/font_color = Color(0.85490197, 0.3019608, 0.4745098, 1)
+theme_override_font_sizes/font_size = 130
+text = "GilbiPinball
+CSI"
 horizontal_alignment = 1
 vertical_alignment = 1

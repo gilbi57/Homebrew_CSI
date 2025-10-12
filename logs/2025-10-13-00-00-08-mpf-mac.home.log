@@ -1,0 +1,210 @@
+2025-10-13 00:00:08,825 : INFO : root : Loading config.
+2025-10-13 00:00:08,826 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-13 00:00:08,826 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-10-13 00:00:08,838 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-13 00:00:08,838 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-10-13 00:00:08,838 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-13 00:00:08,838 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/a86ae0cc98eb736a88bf7d473f69ea1c.mpf_cache
+2025-10-13 00:00:08,838 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-10-13 00:00:08,838 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-10-13 00:00:08,838 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-10-13-00-00-08-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-13-00-00-08-mpf-mac.home.log'}
+2025-10-13 00:00:08,838 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-10-13 00:00:08,838 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-10-13 00:00:08,838 : INFO : Machine : Platform: darwin
+2025-10-13 00:00:08,838 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-10-13 00:00:08,838 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-10-13 00:00:08,838 : INFO : Machine : Initializing MPF...
+2025-10-13 00:00:08,854 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,857 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,857 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,857 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,857 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-13-00-00-08-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,862 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-13 00:00:08,866 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-13 00:00:08,866 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-13 00:00:08,867 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-13 00:00:08,869 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-13 00:00:08,869 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-13 00:00:08,870 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-13 00:00:08,871 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-13 00:00:08,881 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-13 00:00:08,881 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-10-13 00:00:08,882 : INFO : Mode.attract : Started. Priority: 10
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_mode_will_start'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_mode_starting'====== Args={}
+2025-10-13 00:00:08,882 : INFO : Mode.attract_mode : Started. Priority: 100
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-13 00:00:08,882 : INFO : EventManager : Event: ======'mode_attract_mode_started'====== Args={}
+2025-10-13 00:00:08,883 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract_mode', 'direction': None, 'item': 'gameover'}
+2025-10-13 00:00:08,883 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-13 00:00:08,883 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract_mode>, <Mode.attract>]
+2025-10-13 00:00:08,920 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-13 00:00:08,920 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-10-13 00:00:08,920 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-13 00:00:12,931 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:13,065 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:13,265 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:13,431 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:13,548 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:13,648 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:14,264 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:14,431 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:14,831 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:15,881 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:15,998 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:16,131 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:16,248 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:16,364 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:16,481 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:16,631 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:16,697 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:16,798 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:16,815 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:16,964 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:16,981 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:17,114 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:17,198 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:17,314 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:17,347 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:17,464 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:17,581 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:17,664 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:17,747 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:17,847 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:17,931 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:17,997 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:17,998 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,014 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,014 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,030 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,031 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,147 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:18,148 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:18,149 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,231 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,231 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,247 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,248 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,347 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:18,531 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:18,531 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,580 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,581 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,631 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,631 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,714 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:18,747 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:18,747 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,797 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,798 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:18,814 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:18,814 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:18,897 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:18,931 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:18,931 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:19,014 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,015 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:19,015 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,015 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:19,114 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:19,164 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:19,165 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:19,181 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,181 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:19,197 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,197 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:19,331 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:19,331 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:19,332 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:19,414 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,415 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:19,431 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:19,431 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:20,464 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:20,697 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:20,698 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:20,714 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:20,715 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:20,930 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:20,931 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:20,947 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:21,131 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:21,681 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:21,897 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:21,898 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:21,997 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:21,998 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:22,014 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,015 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:22,097 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:22,247 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:22,247 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:22,264 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,264 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:22,397 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,398 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:22,464 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:22,581 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,681 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:22,697 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:22,697 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:22,731 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,731 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:22,814 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:22,815 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:22,880 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:23,081 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:23,081 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,230 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,231 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:23,231 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,231 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,331 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:23,347 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:23,347 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:23,397 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,397 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,597 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:23,598 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,647 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,647 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,747 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,748 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:23,847 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:23,897 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:23,897 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:23,930 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,931 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:23,981 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:23,981 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:24,097 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-10-13 00:00:24,098 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-10-13 00:00:24,099 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:24,147 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-10-13 00:00:24,148 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper'}
+2025-10-13 00:00:24,181 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-10-13 00:00:24,181 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper'}
+2025-10-13 00:00:29,508 : INFO : Machine : Shutting down...
+2025-10-13 00:00:29,508 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-13 00:00:29,511 : INFO : root : MPF run loop ended.

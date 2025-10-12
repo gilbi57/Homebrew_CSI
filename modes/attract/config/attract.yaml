@@ -3,5 +3,13 @@
 # Attract mode that starts when the machine boots up, stops
 # whenever a game is started, and re-starts after the game ends.
 
+mode_settings:
+  selectable_items:
+    - gameover
+    - title
+    - last_game_scores
+  next_item_events: s_right_flipper_active
+  previous_item_events: s_left_flipper_active
+
 slide_player:
   mode_attract_started: attract

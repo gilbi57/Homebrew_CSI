@@ -1,0 +1,9 @@
+2025-10-13 22:24:01,153 : INFO : root : Loading config.
+2025-10-13 22:24:01,154 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-13 22:24:01,154 : WARNING : ConfigProcessor : Config file in cache changed: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-13 22:24:01,154 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-10-13 22:24:01,168 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-10-13 22:24:01,168 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml.
+2025-10-13 22:24:01,168 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-13 22:24:01,182 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_settings.yaml
+2025-10-13 22:24:01,185 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_hardware.yaml

@@ -11,4 +11,5 @@ game:
 modes:
   - attract
   - base
+  - bumpers
   

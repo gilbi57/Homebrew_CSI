@@ -1,0 +1,103 @@
+2025-10-13 22:27:13,372 : INFO : root : Loading config.
+2025-10-13 22:27:13,373 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-13 22:27:13,373 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-10-13 22:27:13,385 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-13 22:27:13,385 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-10-13 22:27:13,385 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-13 22:27:13,385 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-10-13 22:27:13,385 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/modes/bumpers/config/bumpers.yaml.
+2025-10-13 22:27:13,386 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/bumpers/config/bumpers.yaml
+2025-10-13 22:27:13,386 : INFO : ConfigProcessor : Config file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/4c420229fa75118c2461cfc9ff5a44e2.mpf_cache
+2025-10-13 22:27:13,387 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-10-13 22:27:13,387 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-10-13-22-27-13-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-13-22-27-13-mpf-mac.home.log'}
+2025-10-13 22:27:13,387 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-10-13 22:27:13,387 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-10-13 22:27:13,387 : INFO : Machine : Platform: darwin
+2025-10-13 22:27:13,387 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-10-13 22:27:13,387 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-10-13 22:27:13,387 : INFO : Machine : Initializing MPF...
+2025-10-13 22:27:13,405 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,407 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,407 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,407 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,407 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-13-22-27-13-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-10-13 22:27:13,414 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-13 22:27:13,418 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-13 22:27:13,419 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/config_players/device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+        "Invalid settings for player {}:{} {}".format(
+            name, self.show_section, settings))
+AssertionError: Invalid settings for player mode_base_started:slides ['base_slide']
+2025-10-13 22:27:13,421 : INFO : Machine : Starting the main run loop with active modes: []
+2025-10-13 22:27:13,421 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-10-13 22:27:13,421 : INFO : Machine : Shutting down...
+2025-10-13 22:27:13,421 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-13 22:27:14,421 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/config_players/device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+        "Invalid settings for player {}:{} {}".format(
+            name, self.show_section, settings))
+AssertionError: Invalid settings for player mode_base_started:slides ['base_slide']
+2025-10-13 22:27:14,422 : INFO : root : MPF run loop ended.

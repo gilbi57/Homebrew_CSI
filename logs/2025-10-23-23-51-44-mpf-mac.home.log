@@ -1,0 +1,106 @@
+2025-10-23 23:51:44,724 : INFO : root : Loading config.
+2025-10-23 23:51:44,725 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-23 23:51:44,725 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-10-23 23:51:44,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-23 23:51:44,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-10-23 23:51:44,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-10-23 23:51:44,737 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-10-23 23:51:44,738 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/4c420229fa75118c2461cfc9ff5a44e2.mpf_cache
+2025-10-23 23:51:44,738 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-10-23 23:51:44,738 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-10-23-23-51-44-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-23-23-51-44-mpf-mac.home.log'}
+2025-10-23 23:51:44,738 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-10-23 23:51:44,738 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-10-23 23:51:44,738 : INFO : Machine : Platform: darwin
+2025-10-23 23:51:44,738 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-10-23 23:51:44,738 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-10-23 23:51:44,738 : INFO : Machine : Initializing MPF...
+2025-10-23 23:51:44,750 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,753 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,753 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,753 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,753 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-10-23-23-51-44-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,758 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-23 23:51:44,763 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-23 23:51:44,763 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-10-23 23:51:44,763 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-10-23 23:51:44,763 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-10-23 23:51:44,763 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-10-23 23:51:44,764 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-23 23:51:44,764 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-23 23:51:44,766 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-23 23:51:44,767 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-23 23:51:44,767 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2025-10-23 23:51:44,767 : INFO : ball_device.bd_trough : State: idle
+2025-10-23 23:51:44,767 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-10-23 23:51:44,767 : INFO : ball_device.bd_plunger : State: idle
+2025-10-23 23:51:44,770 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-23 23:51:44,770 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-23 23:51:44,770 : INFO : BallController : Initial balls found: 4
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch_button'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scoop'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_left'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_right'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough1'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough2'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough3'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough4'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_jam'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 1739, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 1830, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 1606, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 1739, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 1830, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 1606, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 184, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-23 23:51:44,771 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-23 23:51:44,772 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-23 23:51:44,779 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-23 23:51:44,780 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-23 23:51:44,780 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-23 23:51:44,780 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-10-23 23:51:44,780 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-10-23 23:51:44,780 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-10-23 23:51:44,780 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-10-23 23:51:44,781 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-10-23 23:51:44,781 : INFO : Mode.attract : Started. Priority: 10
+2025-10-23 23:51:44,781 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-23 23:51:44,781 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-10-23 23:51:44,781 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-23 23:51:44,781 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-10-23 23:51:44,781 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-10-23 23:51:45,182 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-10-23 23:51:45,182 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-10-23 23:51:45,183 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-10-23 23:51:49,782 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-10-23 23:51:49,782 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-10-23 23:51:49,782 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-10-23 23:51:49,783 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-10-23 23:51:49,783 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-10-23 23:52:25,129 : WARNING : SwitchController : Received duplicate switch state 0 for switch s_popbumper3 from the platform interface. Log Code: Log-SwitchController-1 (https://missionpinball.org/logs)
+2025-10-23 23:52:29,894 : INFO : Machine : Shutting down...
+2025-10-23 23:52:29,894 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-23 23:52:29,896 : INFO : root : MPF run loop ended.

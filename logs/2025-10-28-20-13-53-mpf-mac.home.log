@@ -1,0 +1,8 @@
+2025-10-28 20:13:53,997 : INFO : root : Loading config.
+2025-10-28 20:13:54,070 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/config_spec.mpf_cache
+2025-10-28 20:13:54,070 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-28 20:13:54,071 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-10-28 20:13:54,085 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-10-28 20:13:54,085 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml.
+2025-10-28 20:13:54,086 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-28 20:13:54,100 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_settings.yaml

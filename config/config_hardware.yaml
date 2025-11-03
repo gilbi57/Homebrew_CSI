@@ -25,6 +25,9 @@ switches:
   s_start:
     number: 0-0-3
     tags: start
+
+  s_drain:
+    number: 1
     
   s_trough1:
     number: 2
@@ -109,6 +112,10 @@ coils:
     number: 1-0-5
     default_pulse_ms: 20
 
+  c_drain_eject:
+    number: 3
+    default_pulse_ms: 20
+
   c_popbumper1:
     number: 0-0-15
     default_pulse_ms: 23
@@ -122,13 +129,13 @@ coils:
 autofire_coils:
   ac_popbumper1:
     coil: c_popbumper1
-        switch: s_popbumper1
+    switch: s_popbumper1
   ac_popbumper2:
     coil: c_popbumper2
     switch: s_popbumper2
   ac_popbumper3:
-      coil: c_popbumper3
-      switch: s_popbumper3
+    coil: c_popbumper3
+    switch: s_popbumper3
   ac_slingshot_left:
     coil: c_sling_left
     switch: s_sling_left
@@ -138,6 +145,11 @@ autofire_coils:
     
     
 ball_devices:
+  bd_drain:
+    ball_switches: s_drain
+    eject_coil: c_drain_eject
+    eject_targets: bd_trough
+    tags: drain
   bd_trough:
     ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough_jam
     eject_coil: c_trough_eject

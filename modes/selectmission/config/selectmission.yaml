@@ -1,0 +1,22 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_selectmission
+  stop_events: stop_mode_selectmission
+  priority: 200
+
+mode_settings:
+  selectable_items:
+    - mission1
+    - mission2
+    - mission3
+    - mission4
+  next_item_events: s_right_flipper_active
+  previous_item_events: s_left_flipper_active
+
+event_player:
+  s_scoop_active:
+    - stop_mode_selectmission
+  
+widget_player:
+  mode_selectmission_started: start_mission_widget  

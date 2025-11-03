@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bbdevx10xa73v"]
+[gd_scene load_steps=7 format=3 uid="uid://bbdevx10xa73v"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
-[ext_resource type="VideoStream" uid="uid://dwg3jn41tqrgb" path="res://videos/CSI.ogv" id="2_cq3lo"]
+[ext_resource type="VideoStream" uid="uid://dwg3jn41tqrgb" path="res://assets/videos/CSI.ogv" id="2_cq3lo"]
 [ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="3_f161n"]
-[ext_resource type="Texture2D" uid="uid://drc10ennocnp8" path="res://images/Starflip_Troopers2.png" id="4_cq3lo"]
+[ext_resource type="Texture2D" uid="uid://drc10ennocnp8" path="res://assets/images/Starflip_Troopers2.png" id="4_cq3lo"]
+[ext_resource type="FontFile" uid="uid://c7s6mfr6nmkje" path="res://assets/fonts/mmsarica_csi.ttf" id="4_twbla"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_cq3lo"]
 
 [node name="Attract" type="Control"]
@@ -37,7 +38,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="ColorRect" type="ColorRect" parent="BoxContainer"]
-custom_minimum_size = Vector2(400, 400)
+custom_minimum_size = Vector2(700, 400)
 layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 4
@@ -48,6 +49,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -2.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("3_f161n")
@@ -61,45 +64,87 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -63.0
-offset_top = -41.5
-offset_right = 63.0
-offset_bottom = 41.5
+offset_left = -119.5
+offset_top = -69.5
+offset_right = 119.5
+offset_bottom = 69.5
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 60
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 80
 text = "CSI
 Homebrew"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="credits" type="Label" parent="MPFCarousel"]
+[node name="credits" type="HBoxContainer" parent="MPFCarousel"]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
+anchors_preset = 14
 anchor_top = 0.5
-anchor_right = 0.5
+anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = -371.5
-offset_top = -74.0
-offset_right = 371.5
-offset_bottom = 74.0
+offset_top = -73.0
+offset_bottom = 73.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_font_sizes/font_size = 60
+
+[node name="credits2" type="VBoxContainer" parent="MPFCarousel/credits"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+
+[node name="credits_author" type="Label" parent="MPFCarousel/credits/credits2"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.22745098, 0.11372549, 1)
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 40
 text = "By Gilbi'Lab
-MFP v8.0"
+"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="mpf_version" type="Label" parent="MPFCarousel/credits/credits2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "mpf_version"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="platform" type="Label" parent="MPFCarousel/credits/credits2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "platform"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
 [node name="logo" type="Sprite2D" parent="MPFCarousel"]
-position = Vector2(641, 363)
+position = Vector2(965, 233)
 scale = Vector2(0.03, 0.03)
 texture = ExtResource("4_cq3lo")
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel"]
 use_parent_material = true
-position = Vector2(640, 360)
+position = Vector2(951, 202)
+
+[node name="Label2" type="Label" parent="MPFCarousel/last_scores_1p"]
+offset_left = -132.0
+offset_top = -124.0
+offset_right = 135.0
+offset_bottom = -55.0
+theme_override_colors/font_color = Color(0.60784316, 0.039215688, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "Last scores"
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p"]
 anchors_preset = 8
@@ -113,6 +158,7 @@ offset_right = 96.5
 offset_bottom = 34.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -121,11 +167,24 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player1_score"
 min_digits = 2
+template_string = "Player 1: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="last_scores_2p" type="Node2D" parent="MPFCarousel"]
 use_parent_material = true
-position = Vector2(640, 360)
+position = Vector2(951, 202)
+
+[node name="Label2" type="Label" parent="MPFCarousel/last_scores_2p"]
+offset_left = -132.0
+offset_top = -124.0
+offset_right = 135.0
+offset_bottom = -55.0
+theme_override_colors/font_color = Color(0.60784316, 0.039215688, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "Last scores"
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p"]
 anchors_preset = 8
@@ -139,6 +198,7 @@ offset_right = 96.5
 offset_bottom = 34.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -147,6 +207,7 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player1_score"
 min_digits = 2
+template_string = "Player 1: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p"]
@@ -161,6 +222,7 @@ offset_right = 96.5
 offset_bottom = 80.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -169,13 +231,26 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player2_score"
 min_digits = 2
+template_string = "Player 2: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="last_scores_p3" type="Node2D" parent="MPFCarousel"]
+[node name="last_scores_3p" type="Node2D" parent="MPFCarousel"]
 use_parent_material = true
-position = Vector2(640, 360)
+position = Vector2(951, 202)
 
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_p3"]
+[node name="Label2" type="Label" parent="MPFCarousel/last_scores_3p"]
+offset_left = -132.0
+offset_top = -124.0
+offset_right = 135.0
+offset_bottom = -55.0
+theme_override_colors/font_color = Color(0.60784316, 0.039215688, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "Last scores"
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -187,6 +262,7 @@ offset_right = 96.5
 offset_bottom = 34.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -195,9 +271,10 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player1_score"
 min_digits = 2
+template_string = "Player 1: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_p3"]
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -209,6 +286,7 @@ offset_right = 96.5
 offset_bottom = 79.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -217,9 +295,10 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player2_score"
 min_digits = 2
+template_string = "Player 2: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_p3"]
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_3p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -231,6 +310,7 @@ offset_right = 96.5
 offset_bottom = 131.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -239,13 +319,26 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player3_score"
 min_digits = 2
+template_string = "Player 3: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="last_scores_p4" type="Node2D" parent="MPFCarousel"]
+[node name="last_scores_4p" type="Node2D" parent="MPFCarousel"]
 use_parent_material = true
-position = Vector2(640, 360)
+position = Vector2(951, 202)
 
-[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_p4"]
+[node name="Label" type="Label" parent="MPFCarousel/last_scores_4p"]
+offset_left = -132.0
+offset_top = -124.0
+offset_right = 135.0
+offset_bottom = -55.0
+theme_override_colors/font_color = Color(0.60784316, 0.039215688, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "Last scores"
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -257,6 +350,7 @@ offset_right = 96.5
 offset_bottom = 34.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -265,9 +359,10 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player1_score"
 min_digits = 2
+template_string = "Player 1: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_p4"]
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -279,6 +374,7 @@ offset_right = 513.0
 offset_bottom = 82.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -287,9 +383,10 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player2_score"
 min_digits = 2
+template_string = "Player 2: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_p4"]
+[node name="player3_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -301,6 +398,7 @@ offset_right = 512.0
 offset_bottom = 131.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -309,9 +407,10 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player3_score"
 min_digits = 2
+template_string = "Player 3: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_p4"]
+[node name="player4_score" type="Label" parent="MPFCarousel/last_scores_4p"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -323,6 +422,7 @@ offset_right = 512.0
 offset_bottom = 179.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
 theme_override_font_sizes/font_size = 50
 text = "100_000"
 horizontal_alignment = 1
@@ -331,4 +431,141 @@ script = ExtResource("5_cq3lo")
 variable_type = 2
 variable_name = "player4_score"
 min_digits = 2
+template_string = "Player 4: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="highscores" type="Node2D" parent="MPFCarousel"]
+use_parent_material = true
+position = Vector2(962, 185)
+
+[node name="Label" type="Label" parent="MPFCarousel/highscores"]
+offset_left = -132.0
+offset_top = -124.0
+offset_right = 135.0
+offset_bottom = -55.0
+theme_override_colors/font_color = Color(0.60784316, 0.039215688, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "High scores"
+
+[node name="hs1" type="Label" parent="MPFCarousel/highscores"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -96.5
+offset_top = -34.5
+offset_right = 96.5
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "100_000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "highscore_1_value"
+min_digits = 2
+template_string = "Player 1: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="hs2" type="Label" parent="MPFCarousel/highscores"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -511.0
+offset_top = 13.5
+offset_right = 513.0
+offset_bottom = 82.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "100_000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "high_score_2_value"
+min_digits = 2
+template_string = "Player 2: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="hs3" type="Label" parent="MPFCarousel/highscores"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -512.0
+offset_top = 62.5
+offset_right = 512.0
+offset_bottom = 131.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "100_000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "high_score_3_value"
+min_digits = 2
+template_string = "Player 3: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="hs4" type="Label" parent="MPFCarousel/highscores"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -512.0
+offset_top = 110.5
+offset_right = 512.0
+offset_bottom = 179.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "100_000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "high_score_4_value"
+min_digits = 2
+template_string = "Player 4: %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="hs5" type="Label" parent="MPFCarousel/highscores"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -513.0
+offset_top = 159.0
+offset_right = 511.0
+offset_bottom = 228.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_twbla")
+theme_override_font_sizes/font_size = 50
+text = "100_000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("5_cq3lo")
+variable_type = 2
+variable_name = "high_score_5_value"
+min_digits = 2
+template_string = "Player 4: %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"

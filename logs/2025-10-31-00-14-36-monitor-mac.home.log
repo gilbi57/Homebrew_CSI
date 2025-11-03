@@ -1,0 +1,34 @@
+2025-10-31 00:14:37,401 : INFO : root : Loading MPF Monitor Version 0.57.1
+2025-10-31 00:14:37,730 : INFO : Core : Looking for MPF at localhost:5051
+2025-10-31 00:15:57,574 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:18:20,573 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:21:16,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:23:13,573 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:34:21,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:34:40,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:38:05,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:39:56,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:41:24,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:43:06,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:47:47,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:48:41,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:49:14,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:49:58,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:53:04,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:55:46,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 00:58:18,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:00:02,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:00:50,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:02:00,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:07:38,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:08:21,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:12:26,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:12:46,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:13:10,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:16:08,572 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:18:16,570 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:19:30,571 : INFO : BCP Client : Connected to MPF
+2025-10-31 01:24:49,571 : INFO : BCP Client : Connected to MPF
+2025-11-01 10:55:49,824 : INFO : root : MPF Monitor run loop ended.
+2025-11-01 10:55:49,825 : INFO : root : Stopping child threads... (0 remaining)
+2025-11-01 10:55:49,825 : INFO : root : All child threads stopped.

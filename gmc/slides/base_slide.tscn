@@ -1,11 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://dldnbfi7gvorm"]
+[gd_scene load_steps=10 format=3 uid="uid://dldnbfi7gvorm"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_2jp88"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_3761s"]
-[ext_resource type="Texture2D" uid="uid://dbqki21mlvv6l" path="res://images/CSI_Background.png" id="2_bu5wf"]
-[ext_resource type="Texture2D" uid="uid://drc10ennocnp8" path="res://images/Starflip_Troopers2.png" id="3_bu5wf"]
+[ext_resource type="Texture2D" uid="uid://dgkirs0ikjqij" path="res://assets/images/CSI_Back.png" id="2_e3p2o"]
+[ext_resource type="Texture2D" uid="uid://ce8nolvnygfk2" path="res://assets/images/csi_img_base.png" id="3_8q07j"]
+[ext_resource type="FontFile" uid="uid://c7s6mfr6nmkje" path="res://assets/fonts/mmsarica_csi.ttf" id="3_bf8jl"]
+[ext_resource type="Script" uid="uid://808knhb8e2nn" path="res://addons/mpf-gmc/classes/mpf_conditional_children.gd" id="4_bf8jl"]
+[ext_resource type="Texture2D" uid="uid://yiq6r3roqi5i" path="res://assets/images/evidences1.png" id="4_e3p2o"]
+[ext_resource type="Texture2D" uid="uid://cug0kaq7kvpc4" path="res://assets/images/evidences2.png" id="5_8q07j"]
+[ext_resource type="Texture2D" uid="uid://yi6mqkdncwm4" path="res://assets/images/evidences3.png" id="6_x80wu"]
 
 [node name="Base_Slide" type="Control"]
+z_index = 1
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -16,118 +22,135 @@ grow_vertical = 2
 script = ExtResource("1_2jp88")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_bu5wf")
+[node name="Overlay" type="Sprite2D" parent="."]
+z_index = 1
+texture = ExtResource("2_e3p2o")
 centered = false
 
-[node name="logo_starflip" type="Sprite2D" parent="."]
-position = Vector2(1154, 11)
-scale = Vector2(0.01, 0.01)
-texture = ExtResource("3_bu5wf")
+[node name="ImgFond" type="Sprite2D" parent="."]
+texture = ExtResource("3_8q07j")
 centered = false
 
-[node name="FlowContainer" type="FlowContainer" parent="."]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_left = -1.0
-offset_right = -1.0
-offset_bottom = 110.0
-grow_horizontal = 2
-theme_override_constants/h_separation = 50
-alignment = 1
-vertical = true
-
-[node name="player_number" type="Label" parent="FlowContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 80
-text = "Player 1"
-script = ExtResource("2_3761s")
-variable_name = "number"
-template_string = "Player %s"
-min_players = 2
-metadata/_custom_type_script = "uid://bfvhmv2eirpua"
-
-[node name="player_ball" type="Label" parent="FlowContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 80
-text = "Ball 1"
-script = ExtResource("2_3761s")
-variable_name = "ball"
-template_string = "Ball %s"
-metadata/_custom_type_script = "uid://bfvhmv2eirpua"
-
-[node name="player_score" type="Label" parent="FlowContainer"]
-layout_mode = 2
-theme_override_constants/line_spacing = 5
-theme_override_constants/outline_size = 9
-theme_override_font_sizes/font_size = 80
-text = "12356"
-horizontal_alignment = 1
-vertical_alignment = 1
-script = ExtResource("2_3761s")
-variable_name = "score"
-min_digits = 2
-metadata/_custom_type_script = "uid://bfvhmv2eirpua"
-
-[node name="BoxContainer" type="BoxContainer" parent="."]
+[node name="ball_num" type="Label" parent="."]
+z_index = 1
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -460.0
-offset_top = -89.0
-offset_right = 460.0
+offset_left = -38.0
+offset_top = -142.0
+offset_right = 38.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/separation = 100
-alignment = 1
+theme_override_colors/font_color = Color(0.039215688, 0.039215688, 0.039215688, 1)
+theme_override_colors/font_shadow_color = Color(0.5152842, 0.4540453, 0.02183721, 0.6)
+theme_override_colors/font_outline_color = Color(1.0368891, 0.8786002, 0, 1)
+theme_override_constants/line_spacing = 6
+theme_override_constants/paragraph_spacing = 0
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 6
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 60
+text = "Ball
+"
+horizontal_alignment = 1
 
-[node name="FlowContainer_p1" type="FlowContainer" parent="BoxContainer"]
-layout_mode = 2
-size_flags_vertical = 0
-size_flags_stretch_ratio = 0.0
-theme_override_constants/h_separation = 4
-theme_override_constants/v_separation = 0
-alignment = 1
-last_wrap_alignment = 2
+[node name="ball_number" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 910.99994
+offset_top = 423.0
+offset_right = 950.99994
+offset_bottom = 463.0
+script = ExtResource("4_bf8jl")
+variable_name = "ball"
+metadata/_custom_type_script = "uid://808knhb8e2nn"
 
-[node name="player_number" type="Label" parent="BoxContainer/FlowContainer_p1"]
+[node name="1" type="Sprite2D" parent="ball_number"]
+z_index = 1
+position = Vector2(38.00006, 11)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("4_e3p2o")
+
+[node name="2" type="Sprite2D" parent="ball_number"]
+z_index = 1
+position = Vector2(38.00006, 11)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("5_8q07j")
+
+[node name="3" type="Sprite2D" parent="ball_number"]
+z_index = 1
+position = Vector2(38.00006, 11)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("6_x80wu")
+
+[node name="Player1" type="Control" parent="."]
+anchors_preset = 0
+script = ExtResource("4_bf8jl")
+variable_name = "number"
+min_players = 1
+metadata/_custom_type_script = "uid://808knhb8e2nn"
+
+[node name="1" type="ColorRect" parent="Player1"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+offset_left = 5.0
+offset_right = 140.0
+offset_bottom = 55.0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.7647059)
+
+[node name="__default__" type="ColorRect" parent="Player1"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+offset_left = 5.0
+offset_right = 140.0
+offset_bottom = 55.0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.19607843)
+
+[node name="BoxContainer_p1" type="BoxContainer" parent="."]
+z_index = 1
+custom_minimum_size = Vector2(380, 0)
+layout_mode = 1
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 531.0
+offset_bottom = 51.0
+
+[node name="player_number" type="Label" parent="BoxContainer_p1"]
+z_index = 2
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = 3
-theme_override_font_sizes/font_size = 30
-text = "-- Player 1 --"
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = " Player 1 :"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 4
 variable_name = "number"
-min_digits = 11
-template_string = "-- Player %s --"
-min_players = 2
+min_digits = 1
+template_string = "Player %s: "
+min_players = 1
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="ColorRect" type="ColorRect" parent="BoxContainer/FlowContainer_p1/player_number"]
-show_behind_parent = true
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1, 2)
-color = Color(1.2836156, 0.7910543, 0.07898202, 0.68235296)
-
-[node name="player_score" type="Label" parent="BoxContainer/FlowContainer_p1"]
+[node name="player_score" type="Label" parent="BoxContainer_p1"]
+z_index = 2
+custom_minimum_size = Vector2(380, 0)
 layout_mode = 2
 theme_override_constants/line_spacing = 5
 theme_override_constants/outline_size = 9
-theme_override_font_sizes/font_size = 30
-text = "12356"
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "1,112,356,789"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
@@ -135,49 +158,88 @@ variable_type = 4
 variable_name = "score"
 comma_separate = true
 min_digits = 2
-min_players = 2
+template_string = "%s"
+min_players = 1
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="FlowContainer_p2" type="FlowContainer" parent="BoxContainer"]
-layout_mode = 2
-size_flags_vertical = 0
-theme_override_constants/h_separation = 4
-theme_override_constants/v_separation = 0
-alignment = 1
-last_wrap_alignment = 2
+[node name="Player2" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -560.0
+offset_right = -560.0
+grow_horizontal = 0
+script = ExtResource("4_bf8jl")
+variable_name = "number"
+min_players = 2
+metadata/_custom_type_script = "uid://808knhb8e2nn"
 
-[node name="player_number" type="Label" parent="BoxContainer/FlowContainer_p2"]
+[node name="2" type="ColorRect" parent="Player2"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_right = 135.0
+offset_bottom = 55.0
+grow_horizontal = 0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.7647059)
+
+[node name="__default__" type="ColorRect" parent="Player2"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_right = 135.0
+offset_bottom = 55.0
+grow_horizontal = 0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.19607843)
+
+[node name="BoxContainer_p2" type="BoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -566.0
+offset_right = -37.0
+offset_bottom = 55.0
+grow_horizontal = 0
+
+[node name="player_number" type="Label" parent="BoxContainer_p2"]
+z_index = 2
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-text = "-- Player 1 --"
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = " Player 2 :"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 5
 variable_name = "number"
-min_digits = 11
-template_string = "-- Player %s --"
+min_digits = 1
+template_string = "Player %s: "
 min_players = 2
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="ColorRect2" type="ColorRect" parent="BoxContainer/FlowContainer_p2/player_number"]
-show_behind_parent = true
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1, 2)
-color = Color(1.2836156, 0.7910543, 0.07898202, 0.68235296)
-
-[node name="player_score" type="Label" parent="BoxContainer/FlowContainer_p2"]
+[node name="player_score" type="Label" parent="BoxContainer_p2"]
+z_index = 2
+custom_minimum_size = Vector2(380, 0)
 layout_mode = 2
 theme_override_constants/line_spacing = 5
 theme_override_constants/outline_size = 9
-theme_override_font_sizes/font_size = 30
-text = "12356"
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "1,112,356,789"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
@@ -185,100 +247,193 @@ variable_type = 5
 variable_name = "score"
 comma_separate = true
 min_digits = 2
+template_string = "%s"
 min_players = 2
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="FlowContainer_p3" type="FlowContainer" parent="BoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 0
-size_flags_vertical = 0
-theme_override_constants/v_separation = 0
-alignment = 1
-last_wrap_alignment = 2
+[node name="Player3" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -55.0
+grow_vertical = 0
+script = ExtResource("4_bf8jl")
+variable_name = "number"
+min_players = 3
+metadata/_custom_type_script = "uid://808knhb8e2nn"
 
-[node name="player_number" type="Label" parent="BoxContainer/FlowContainer_p3"]
+[node name="3" type="ColorRect" parent="Player3"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -65.0
+offset_right = 135.0
+offset_bottom = -10.0
+grow_vertical = 0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.7647059)
+
+[node name="__default__" type="ColorRect" parent="Player3"]
+show_behind_parent = true
+z_index = 1
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -65.0
+offset_right = 135.0
+offset_bottom = -10.0
+grow_vertical = 0
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.19607843)
+
+[node name="BoxContainer_p3" type="BoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = -65.0
+offset_right = 444.0
+offset_bottom = -10.0
+grow_vertical = 0
+
+[node name="player_number" type="Label" parent="BoxContainer_p3"]
+z_index = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-text = "-- Player 1 --"
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "Player 3:"
+horizontal_alignment = 1
+vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 6
 variable_name = "number"
-min_digits = 11
-template_string = "-- Player %s --"
+min_digits = 2
+template_string = "Player %s: "
 min_players = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="ColorRect2" type="ColorRect" parent="BoxContainer/FlowContainer_p3/player_number"]
-show_behind_parent = true
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1, 2)
-color = Color(1.2836156, 0.7910543, 0.07898202, 0.68235296)
-
-[node name="player_score" type="Label" parent="BoxContainer/FlowContainer_p3"]
+[node name="player_score" type="Label" parent="BoxContainer_p3"]
+z_index = 1
+custom_minimum_size = Vector2(380, 0)
 layout_mode = 2
 theme_override_constants/line_spacing = 5
 theme_override_constants/outline_size = 9
-theme_override_font_sizes/font_size = 30
-text = "12356"
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "1,112,356,789"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 6
 variable_name = "score"
 comma_separate = true
-min_digits = 2
+min_digits = 1
 min_players = 3
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="FlowContainer_p4" type="FlowContainer" parent="BoxContainer"]
-layout_mode = 2
-size_flags_vertical = 0
-theme_override_constants/v_separation = 0
-alignment = 1
-last_wrap_alignment = 2
+[node name="Player4" type="Control" parent="."]
+custom_minimum_size = Vector2(135, 55)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -560.0
+offset_top = -55.0
+offset_right = -425.0
+grow_horizontal = 0
+grow_vertical = 0
+script = ExtResource("4_bf8jl")
+variable_name = "number"
+min_players = 4
+metadata/_custom_type_script = "uid://808knhb8e2nn"
 
-[node name="player_number" type="Label" parent="BoxContainer/FlowContainer_p4"]
+[node name="4" type="ColorRect" parent="Player4"]
+show_behind_parent = true
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.7647059)
+
+[node name="__default__" type="ColorRect" parent="Player4"]
+show_behind_parent = true
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(4, 1)
+color = Color(1, 0.8509804, 0, 0.19607843)
+
+[node name="BoxContainer_p4" type="BoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -560.0
+offset_top = -65.0
+offset_right = -42.0
+offset_bottom = -10.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="player_number" type="Label" parent="BoxContainer_p4"]
+z_index = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-text = "-- Player 1 --"
+theme_override_constants/line_spacing = 3
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = " Player 4:"
+horizontal_alignment = 1
+vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 7
 variable_name = "number"
-min_digits = 11
-template_string = "-- Player %s --"
+min_digits = 2
+template_string = "Player %s: "
 min_players = 4
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
-[node name="ColorRect2" type="ColorRect" parent="BoxContainer/FlowContainer_p4/player_number"]
-show_behind_parent = true
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(1, 2)
-color = Color(1.2836156, 0.7910543, 0.07898202, 0.68235296)
-
-[node name="player_score" type="Label" parent="BoxContainer/FlowContainer_p4"]
+[node name="player_score" type="Label" parent="BoxContainer_p4"]
+z_index = 1
+custom_minimum_size = Vector2(380, 0)
 layout_mode = 2
 theme_override_constants/line_spacing = 5
 theme_override_constants/outline_size = 9
-theme_override_font_sizes/font_size = 30
-text = "12356"
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "1,112,356,789"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_3761s")
 variable_type = 7
 variable_name = "score"
 comma_separate = true
-min_digits = 2
+min_digits = 1
 min_players = 4
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"

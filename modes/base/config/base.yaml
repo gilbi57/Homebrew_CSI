@@ -8,12 +8,28 @@ mode:
   stop_events: ball_will_end
   priority: 100
 
-
 event_player:
   mode_base_started:
     - start_mode_bumpers
   mode_base_will_stop:
     - stop_mode_bumpers
+  s_scoop_active:
+    - start_mode_selectmission
 
 slide_player:
   mode_base_started: base_slide
+
+widget_player:
+  player_added: player_addded_widget
+  timer_player_added_timer_complete:
+    player_addded_widget:
+      action: remove
+
+timers:
+  player_added_timer:
+    end_value: 1
+    tick_interval: 0.7s
+    start_running: true
+    control_events:
+      - event: player_added
+        action: restart

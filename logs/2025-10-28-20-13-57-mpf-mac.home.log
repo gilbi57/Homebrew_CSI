@@ -1,0 +1,7 @@
+2025-10-28 20:13:57,038 : INFO : root : Loading config.
+2025-10-28 20:13:57,039 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-28 20:13:57,040 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml.
+2025-10-28 20:13:57,054 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/mpfconfig.yaml
+2025-10-28 20:13:57,054 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml.
+2025-10-28 20:13:57,054 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config.yaml
+2025-10-28 20:13:57,068 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/config/config_settings.yaml

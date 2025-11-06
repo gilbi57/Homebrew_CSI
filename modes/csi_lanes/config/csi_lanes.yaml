@@ -1,0 +1,119 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_csi_lanes
+  stop_events: stop_mode_csi_lanes
+  priority: 200
+
+shots:
+  c_shot:
+    switch: s_left_inlane1
+    profile: csi_shot_profile
+    show_tokens:
+      light: l_lane_c
+  s_shot:
+    switch: s_left_inlane2
+    profile: csi_shot_profile
+    show_tokens:
+      light: l_lane_s
+  i_shot:
+    switch: s_right_inlane
+    profile: csi_shot_profile
+    show_tokens:
+      light: l_lane_i
+
+shot_groups:
+  csi_shots: 
+    shots: c_shot, s_shot, i_shot
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active
+    reset_events: 
+      csi_shots_lit_complete: 1s
+      mode_csi_lanes_started: 0s
+    enable_events: ball_started
+    disable_events: ball_ending
+
+shot_profiles:
+  csi_shot_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: lit
+        show: on
+  #  loop: true
+
+sequences:
+  csi_lanes_then_scoop:
+    events:
+      - csi_shots_lit_complete
+      - s_scoop_active
+    events_when_complete: csi_scoop_done
+    disable_on_complete: false
+  csi_lanes_then_scoop_then_right_orbit:
+    events:
+      - csi_shots_lit_complete
+      - csi_scoop_done
+      - s_right_orbit_active
+    events_when_complete: csi_right_orbit_done
+    reset_events: 
+      timer_csi_right_orbit_timer_complete: 0s
+    disable_on_complete: false
+
+widget_player:
+  csi_shots_lit_complete: 
+    csi_lanes_widget
+  csi_scoop_done:
+    csi_lanes_widget
+  csi_right_orbit_done:
+    csi_lanes_widget 
+  timer_csi_lanes_timer_complete:
+    csi_lanes_widget:
+      action: remove
+
+timers:
+  csi_lanes_timer:
+    end_value: 1
+    tick_interval: 0.7s
+    start_running: true
+    control_events:
+      - event: csi_shots_lit_complete
+        action: restart
+      - event: csi_scoop_done
+        action: restart
+      - event: csi_right_orbit_done
+        action: restart
+  csi_right_orbit_timer:
+    end_value: 1
+    tick_interval: settings.bonus_timer
+    control_events:
+      - event: csi_scoop_done
+        action: restart
+
+light_player:
+  csi_shots_lit_complete:
+    l_scoop_bonus: on
+  csi_scoop_done:
+    l_scoop_bonus: off
+    l_right_orbit_bonus: on
+  csi_right_orbit_done:
+    l_right_orbit_bonus: off
+  timer_csi_right_orbit_timer_complete:
+    l_right_orbit_bonus: off
+
+variable_player:
+  mode_csi_lanes_started:
+    multiplier:
+      int: 1
+      action: set
+  csi_shots_hit:
+    score: 1_000
+  csi_shots_lit_complete:
+    score: 100_000
+    multiplier: 1
+  csi_scoop_done:
+    score: 0
+    multiplier: 1
+  csi_right_orbit_done:
+    score: 0
+    multiplier: 3
+  

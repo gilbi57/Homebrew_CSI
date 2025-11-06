@@ -1,0 +1,862 @@
+2025-11-04 23:56:26,419 : INFO : root : Loading config.
+2025-11-04 23:56:26,420 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-04 23:56:26,420 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-11-04 23:56:26,431 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-04 23:56:26,431 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-11-04 23:56:26,432 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-04 23:56:26,432 : WARNING : ConfigProcessor : Config file in cache changed: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/base/config/base.yaml
+2025-11-04 23:56:26,432 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/modes/base/config/base.yaml.
+2025-11-04 23:56:26,435 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/base/config/base.yaml
+2025-11-04 23:56:26,435 : INFO : ConfigProcessor : Config file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-11-04 23:56:26,435 : WARNING : ConfigProcessor : Config file in cache changed: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/bumpers/config/bumpers.yaml
+2025-11-04 23:56:26,435 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/modes/bumpers/config/bumpers.yaml.
+2025-11-04 23:56:26,436 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/bumpers/config/bumpers.yaml
+2025-11-04 23:56:26,436 : INFO : ConfigProcessor : Config file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/4c420229fa75118c2461cfc9ff5a44e2.mpf_cache
+2025-11-04 23:56:26,436 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/f5ee6852f1764324c8553249cc53c871.mpf_cache
+2025-11-04 23:56:26,436 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-11-04 23:56:26,436 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-04-23-56-26-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-04-23-56-26-mpf-mac.home.log'}
+2025-11-04 23:56:26,436 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-11-04 23:56:26,436 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-11-04 23:56:26,436 : INFO : Machine : Platform: darwin
+2025-11-04 23:56:26,436 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-11-04 23:56:26,436 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-11-04 23:56:26,436 : INFO : Machine : Initializing MPF...
+2025-11-04 23:56:26,449 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,451 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,451 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,451 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,451 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,452 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-04-23-56-26-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,457 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-04 23:56:26,462 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-04 23:56:26,463 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-11-04 23:56:26,463 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-11-04 23:56:26,463 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-11-04 23:56:26,463 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-11-04 23:56:26,463 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-04 23:56:26,464 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-04 23:56:26,466 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-04 23:56:26,466 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-04 23:56:26,466 : INFO : ball_device.bd_drain : BCH: Initial count: 0
+2025-11-04 23:56:26,466 : INFO : ball_device.bd_drain : State: idle
+2025-11-04 23:56:26,466 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2025-11-04 23:56:26,467 : INFO : ball_device.bd_trough : State: idle
+2025-11-04 23:56:26,467 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-11-04 23:56:26,467 : INFO : ball_device.bd_plunger : State: idle
+2025-11-04 23:56:26,470 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-04 23:56:26,470 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-04 23:56:26,470 : INFO : BallController : Initial balls found: 4
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 374, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drain'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch_button'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scoop'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_left'====== Args={'value': 374, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_right'====== Args={'value': 374, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough1'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough2'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough3'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough4'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_jam'====== Args={'value': 88, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 221066, 'top': [10210000, 1550000, 1070000, 1070000, 810000, 710000, 640000, 570000, 530000, 480000], 'total': 110}, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3319, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3273, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2992, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_c_shot'====== Args={'value': 50, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_csi_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_i_shot'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_s_shot'====== Args={'value': 49, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 506, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 345, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane1'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane2'====== Args={'value': 52, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 732, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3363, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3314, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3034, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 605, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop'====== Args={'value': 347, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 637, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 355, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-04 23:56:26,471 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-04 23:56:26,477 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-04 23:56:26,477 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-04 23:56:26,477 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-11-04 23:56:26,478 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-11-04 23:56:26,478 : INFO : Mode.attract : Started. Priority: 10
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-04 23:56:26,478 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-11-04 23:56:26,479 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-04 23:56:26,845 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-04 23:56:26,845 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-04 23:56:26,845 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-04 23:56:27,341 : INFO : BcpServer : New client connected.
+2025-11-04 23:56:30,709 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-11-04 23:56:30,826 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-11-04 23:56:30,827 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-11-04 23:56:30,828 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.1168121249647811}
+2025-11-04 23:56:30,828 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.1168121249647811}
+2025-11-04 23:56:30,829 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.1168121249647811}
+2025-11-04 23:56:30,830 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-11-04 23:56:30,830 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-11-04 23:56:30,830 : INFO : Mode.attract : Stopped.
+2025-11-04 23:56:30,830 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:56:30,831 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-11-04 23:56:30,831 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-11-04 23:56:30,832 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-11-04 23:56:30,832 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-04 23:56:30,833 : INFO : Mode.game : Started. Priority: 20
+2025-11-04 23:56:30,833 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:56:30,833 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.1168121249647811}
+2025-11-04 23:56:30,834 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-11-04 23:56:30,835 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-11-04 23:56:30,836 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('9c42b46d-71a0-4961-8932-9cabd29d51d4'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('1782dace-80da-4c82-a0d9-9995bcd2ef0c'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-04 23:56:30,836 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-11-04 23:56:30,836 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-11-04 23:56:30,836 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-04 23:56:30,837 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-11-04 23:56:30,837 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-11-04 23:56:30,837 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-04 23:56:30,838 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-11-04 23:56:30,838 : INFO : EventManager : Event: ======'player_multiplier'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-11-04 23:56:30,838 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-04 23:56:30,839 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-11-04 23:56:30,839 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-04 23:56:30,839 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-04 23:56:30,846 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,847 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-04 23:56:30,847 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,848 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,848 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,848 : INFO : EventManager : Event: ======'player_base_player_added_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-04 23:56:30,849 : INFO : Timer.player_added_timer : Starting Timer.
+2025-11-04 23:56:30,849 : INFO : EventManager : Event: ======'timer_player_added_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-04 23:56:30,849 : INFO : EventManager : Event: ======'timer_player_added_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-04 23:56:30,849 : INFO : EventManager : Event: ======'player_shot_switch_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,850 : INFO : EventManager : Event: ======'player_shot_c_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,850 : INFO : EventManager : Event: ======'player_shot_s_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,850 : INFO : EventManager : Event: ======'player_shot_i_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,851 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'unlit'}
+2025-11-04 23:56:30,851 : INFO : EventManager : Event: ======'csi_shots_unlit_complete'====== Args={}
+2025-11-04 23:56:30,852 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,852 : INFO : Mode.base : Started. Priority: 100
+2025-11-04 23:56:30,852 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:56:30,852 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,853 : INFO : EventManager : Event: ======'start_mode_bumpers'====== Args={'priority': 0}
+2025-11-04 23:56:30,853 : INFO : EventManager : Event: ======'mode_bumpers_will_start'====== Args={'priority': 0}
+2025-11-04 23:56:30,853 : INFO : EventManager : Event: ======'player_shot_bumper1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,854 : INFO : EventManager : Event: ======'player_shot_bumper2_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,854 : INFO : EventManager : Event: ======'player_shot_bumper3_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:30,854 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'unlit'}
+2025-11-04 23:56:30,854 : INFO : EventManager : Event: ======'bumpers_unlit_complete'====== Args={}
+2025-11-04 23:56:30,855 : INFO : EventManager : Event: ======'mode_bumpers_starting'====== Args={'priority': 0}
+2025-11-04 23:56:30,855 : INFO : Mode.bumpers : Started. Priority: 200
+2025-11-04 23:56:30,855 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:56:30,856 : INFO : EventManager : Event: ======'mode_bumpers_started'====== Args={'priority': 0}
+2025-11-04 23:56:30,856 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-11-04 23:56:30,856 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-04 23:56:30,857 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-11-04 23:56:30,857 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-11-04 23:56:30,858 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-11-04 23:56:30,858 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-11-04 23:56:30,858 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-11-04 23:56:30,858 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-11-04 23:56:30,858 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-04 23:56:30,859 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2025-11-04 23:56:30,859 : INFO : ball_device.bd_trough : State: ejecting
+2025-11-04 23:56:30,859 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-11-04 23:56:30,859 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-04 23:56:30,860 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-11-04 23:56:30,860 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-11-04 23:56:30,860 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2025-11-04 23:56:30,860 : INFO : ball_device.bd_trough : State: ball_left
+2025-11-04 23:56:30,860 : INFO : ball_device.bd_trough : Ball left
+2025-11-04 23:56:30,860 : INFO : ball_device.bd_trough : Wait for confirm with timeout 3.0
+2025-11-04 23:56:30,961 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2025-11-04 23:56:30,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 733, 'prev_value': 732, 'change': 1}
+2025-11-04 23:56:31,019 : INFO : EventManager : Event: ======'slide_base_slide_created'====== Args={'_from_bcp': True}
+2025-11-04 23:56:31,020 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2025-11-04 23:56:31,020 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-04 23:56:31,021 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2025-11-04 23:56:31,462 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2025-11-04 23:56:31,463 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-11-04 23:56:31,464 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2025-11-04 23:56:31,464 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2025-11-04 23:56:31,464 : INFO : ball_device.bd_trough : Got eject confirm
+2025-11-04 23:56:31,465 : INFO : ball_device.bd_trough : Eject successful
+2025-11-04 23:56:31,465 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2025-11-04 23:56:31,465 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2025-11-04 23:56:31,465 : INFO : ball_device.bd_trough : State: idle
+2025-11-04 23:56:31,466 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2025-11-04 23:56:31,466 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-04 23:56:31,467 : INFO : ball_device.bd_plunger : State: ejecting
+2025-11-04 23:56:31,467 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2025-11-04 23:56:31,467 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-11-04 23:56:31,468 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2025-11-04 23:56:31,468 : INFO : coil.c_plunger : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-11-04 23:56:31,468 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2025-11-04 23:56:31,468 : INFO : ball_device.bd_plunger : State: ball_left
+2025-11-04 23:56:31,469 : INFO : ball_device.bd_plunger : Ball left
+2025-11-04 23:56:31,469 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 3.0
+2025-11-04 23:56:31,550 : INFO : EventManager : Event: ======'player_base_player_added_timer_tick'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:31,550 : INFO : Timer.player_added_timer : Timer Complete
+2025-11-04 23:56:31,550 : INFO : Timer.player_added_timer : Stopping Timer
+2025-11-04 23:56:31,550 : INFO : EventManager : Event: ======'timer_player_added_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-04 23:56:31,550 : INFO : EventManager : Event: ======'timer_player_added_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-04 23:56:33,211 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:33,211 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper2'}
+2025-11-04 23:56:33,212 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:33,212 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_popbumper2'}
+2025-11-04 23:56:33,213 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3315, 'prev_value': 3314, 'change': 1}
+2025-11-04 23:56:33,214 : INFO : EventManager : Event: ======'player_shot_bumper2'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:33,223 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3274, 'prev_value': 3273, 'change': 1}
+2025-11-04 23:56:33,224 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,224 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,224 : INFO : EventManager : Event: ======'bumper2_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,224 : INFO : EventManager : Event: ======'bumper2_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,225 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:33,225 : INFO : EventManager : Event: ======'bumpers_unlit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:33,226 : INFO : ball_device.bd_plunger : Got eject confirm
+2025-11-04 23:56:33,226 : INFO : ball_device.bd_plunger : Eject successful
+2025-11-04 23:56:33,226 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2025-11-04 23:56:33,227 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-11-04 23:56:33,227 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2025-11-04 23:56:33,227 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2025-11-04 23:56:33,228 : INFO : ball_device.bd_plunger : State: idle
+2025-11-04 23:56:33,275 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:33,543 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:33,543 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:33,544 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3364, 'prev_value': 3363, 'change': 1}
+2025-11-04 23:56:33,545 : INFO : EventManager : Event: ======'player_shot_bumper1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:33,546 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3320, 'prev_value': 3319, 'change': 1}
+2025-11-04 23:56:33,546 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,547 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,547 : INFO : EventManager : Event: ======'bumper1_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,547 : INFO : EventManager : Event: ======'bumper1_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:33,548 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:33,548 : INFO : EventManager : Event: ======'bumpers_unlit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:33,692 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:35,343 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:35,343 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:35,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3365, 'prev_value': 3364, 'change': 1}
+2025-11-04 23:56:35,345 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3321, 'prev_value': 3320, 'change': 1}
+2025-11-04 23:56:35,345 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,346 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,346 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,353 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,355 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:35,355 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:35,475 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:35,476 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:35,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3035, 'prev_value': 3034, 'change': 1}
+2025-11-04 23:56:35,476 : INFO : EventManager : Event: ======'player_shot_bumper3'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:35,477 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2993, 'prev_value': 2992, 'change': 1}
+2025-11-04 23:56:35,477 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:35,477 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:35,477 : INFO : EventManager : Event: ======'bumper3_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:35,478 : INFO : EventManager : Event: ======'bumper3_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:35,478 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'lit'}
+2025-11-04 23:56:35,478 : INFO : EventManager : Event: ======'bumpers_lit_complete'====== Args={}
+2025-11-04 23:56:35,478 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:35,478 : INFO : EventManager : Event: ======'bumpers_unlit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:35,508 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3316, 'prev_value': 3315, 'change': 1}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3275, 'prev_value': 3274, 'change': 1}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,508 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,509 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:35,509 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:35,625 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:35,675 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:35,692 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:35,776 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:35,776 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:35,777 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3366, 'prev_value': 3365, 'change': 1}
+2025-11-04 23:56:35,778 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3322, 'prev_value': 3321, 'change': 1}
+2025-11-04 23:56:35,779 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,779 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,779 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,780 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:35,780 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:35,780 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:35,962 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:37,942 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:37,943 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:37,943 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3367, 'prev_value': 3366, 'change': 1}
+2025-11-04 23:56:37,944 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3323, 'prev_value': 3322, 'change': 1}
+2025-11-04 23:56:37,945 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:37,945 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:37,946 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:37,946 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:37,953 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:37,956 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,008 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:38,008 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:38,008 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3036, 'prev_value': 3035, 'change': 1}
+2025-11-04 23:56:38,008 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2994, 'prev_value': 2993, 'change': 1}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,009 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,092 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:38,175 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:38,259 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:38,260 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:38,260 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3368, 'prev_value': 3367, 'change': 1}
+2025-11-04 23:56:38,261 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3324, 'prev_value': 3323, 'change': 1}
+2025-11-04 23:56:38,261 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,261 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,261 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,261 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,262 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,262 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,262 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:38,262 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:38,262 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3037, 'prev_value': 3036, 'change': 1}
+2025-11-04 23:56:38,263 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2995, 'prev_value': 2994, 'change': 1}
+2025-11-04 23:56:38,263 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,263 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,263 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,264 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,264 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,264 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,276 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:38,276 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:38,277 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3317, 'prev_value': 3316, 'change': 1}
+2025-11-04 23:56:38,277 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3276, 'prev_value': 3275, 'change': 1}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:38,278 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:38,292 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:38,375 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:38,425 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:38,493 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:38,493 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:38,493 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3318, 'prev_value': 3317, 'change': 1}
+2025-11-04 23:56:38,494 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3277, 'prev_value': 3276, 'change': 1}
+2025-11-04 23:56:38,494 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,494 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,495 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,495 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,495 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:38,495 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:38,542 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:38,542 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3038, 'prev_value': 3037, 'change': 1}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2996, 'prev_value': 2995, 'change': 1}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,543 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:38,558 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3369, 'prev_value': 3368, 'change': 1}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3325, 'prev_value': 3324, 'change': 1}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,558 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,575 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:38,758 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:38,759 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:38,910 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:38,910 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:38,911 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3370, 'prev_value': 3369, 'change': 1}
+2025-11-04 23:56:38,912 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3326, 'prev_value': 3325, 'change': 1}
+2025-11-04 23:56:38,912 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,913 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,913 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,913 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:38,914 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:38,914 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:39,009 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:39,009 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:39,009 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3319, 'prev_value': 3318, 'change': 1}
+2025-11-04 23:56:39,009 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3278, 'prev_value': 3277, 'change': 1}
+2025-11-04 23:56:39,009 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,010 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,010 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,010 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,010 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:39,010 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:39,075 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:39,142 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:39,142 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:39,142 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3039, 'prev_value': 3038, 'change': 1}
+2025-11-04 23:56:39,142 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2997, 'prev_value': 2996, 'change': 1}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:39,143 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:39,208 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:39,309 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:39,309 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:39,310 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3371, 'prev_value': 3370, 'change': 1}
+2025-11-04 23:56:39,310 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3327, 'prev_value': 3326, 'change': 1}
+2025-11-04 23:56:39,311 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,311 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,311 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,311 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,312 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:39,312 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:39,375 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:39,493 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:39,893 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:39,893 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:39,893 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3372, 'prev_value': 3371, 'change': 1}
+2025-11-04 23:56:39,894 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3328, 'prev_value': 3327, 'change': 1}
+2025-11-04 23:56:39,895 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,895 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,896 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,896 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:39,896 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:39,897 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:40,058 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:41,094 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:41,094 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:41,095 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3373, 'prev_value': 3372, 'change': 1}
+2025-11-04 23:56:41,096 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3329, 'prev_value': 3328, 'change': 1}
+2025-11-04 23:56:41,097 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,103 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,107 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,107 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,108 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:41,108 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:41,208 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3320, 'prev_value': 3319, 'change': 1}
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3279, 'prev_value': 3278, 'change': 1}
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,209 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,210 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,210 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:41,210 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:41,275 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:41,308 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:41,459 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:41,459 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:41,460 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3374, 'prev_value': 3373, 'change': 1}
+2025-11-04 23:56:41,461 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3330, 'prev_value': 3329, 'change': 1}
+2025-11-04 23:56:41,461 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,461 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,462 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,462 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:41,462 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:41,463 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:41,609 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:42,259 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:42,260 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:42,260 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3375, 'prev_value': 3374, 'change': 1}
+2025-11-04 23:56:42,261 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3331, 'prev_value': 3330, 'change': 1}
+2025-11-04 23:56:42,262 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,262 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,262 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,263 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,263 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,264 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,375 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:42,375 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:42,376 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3040, 'prev_value': 3039, 'change': 1}
+2025-11-04 23:56:42,376 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2998, 'prev_value': 2997, 'change': 1}
+2025-11-04 23:56:42,376 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,377 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,377 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,377 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,377 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:42,377 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:42,408 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:42,458 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:42,508 : INFO : SwitchController : <<<<<<< 's_popbumper3' active >>>>>>>
+2025-11-04 23:56:42,508 : INFO : EventManager : Event: ======'s_popbumper3_active'====== Args={}
+2025-11-04 23:56:42,509 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3041, 'prev_value': 3040, 'change': 1}
+2025-11-04 23:56:42,509 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 2999, 'prev_value': 2998, 'change': 1}
+2025-11-04 23:56:42,509 : INFO : EventManager : Event: ======'bumper3_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,509 : INFO : EventManager : Event: ======'bumper3_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,509 : INFO : EventManager : Event: ======'bumper3_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,510 : INFO : EventManager : Event: ======'bumper3_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,510 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:42,510 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper3'}
+2025-11-04 23:56:42,542 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:42,542 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3376, 'prev_value': 3375, 'change': 1}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3332, 'prev_value': 3331, 'change': 1}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,543 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,558 : INFO : SwitchController : <<<<<<< 's_popbumper3' inactive >>>>>>>
+2025-11-04 23:56:42,692 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:42,760 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:42,760 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:42,760 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3377, 'prev_value': 3376, 'change': 1}
+2025-11-04 23:56:42,761 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3333, 'prev_value': 3332, 'change': 1}
+2025-11-04 23:56:42,761 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,762 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,762 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,762 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,762 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,763 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:42,763 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:42,763 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:42,763 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3321, 'prev_value': 3320, 'change': 1}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3280, 'prev_value': 3279, 'change': 1}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:42,764 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:42,765 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:42,859 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:42,892 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:43,010 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:43,010 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:43,011 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3378, 'prev_value': 3377, 'change': 1}
+2025-11-04 23:56:43,011 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3334, 'prev_value': 3333, 'change': 1}
+2025-11-04 23:56:43,012 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:43,012 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:43,012 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:43,012 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:43,012 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:43,013 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:43,159 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:44,559 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:44,560 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:44,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3379, 'prev_value': 3378, 'change': 1}
+2025-11-04 23:56:44,561 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3335, 'prev_value': 3334, 'change': 1}
+2025-11-04 23:56:44,562 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,562 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,567 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,568 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,571 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:44,571 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:44,726 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:44,843 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:44,843 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:44,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3380, 'prev_value': 3379, 'change': 1}
+2025-11-04 23:56:44,844 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3336, 'prev_value': 3335, 'change': 1}
+2025-11-04 23:56:44,845 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,845 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,845 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,846 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:44,846 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:44,846 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:44,975 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:45,043 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:45,043 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:45,044 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3322, 'prev_value': 3321, 'change': 1}
+2025-11-04 23:56:45,045 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3281, 'prev_value': 3280, 'change': 1}
+2025-11-04 23:56:45,045 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,045 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,046 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,046 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,046 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:45,047 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:45,092 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:45,293 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:45,293 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:45,294 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3381, 'prev_value': 3380, 'change': 1}
+2025-11-04 23:56:45,295 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3337, 'prev_value': 3336, 'change': 1}
+2025-11-04 23:56:45,296 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,296 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,296 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,297 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:45,297 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:45,297 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:45,359 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:48,293 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:48,293 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:48,294 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3382, 'prev_value': 3381, 'change': 1}
+2025-11-04 23:56:48,295 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3338, 'prev_value': 3337, 'change': 1}
+2025-11-04 23:56:48,305 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,305 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,306 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,306 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,306 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:48,306 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:48,358 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:48,358 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:48,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3323, 'prev_value': 3322, 'change': 1}
+2025-11-04 23:56:48,358 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3282, 'prev_value': 3281, 'change': 1}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:48,359 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:48,475 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:48,492 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:48,642 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:48,642 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:48,643 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3383, 'prev_value': 3382, 'change': 1}
+2025-11-04 23:56:48,643 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3339, 'prev_value': 3338, 'change': 1}
+2025-11-04 23:56:48,644 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,644 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,645 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,645 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,645 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:48,646 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:48,659 : INFO : SwitchController : <<<<<<< 's_popbumper2' active >>>>>>>
+2025-11-04 23:56:48,659 : INFO : EventManager : Event: ======'s_popbumper2_active'====== Args={}
+2025-11-04 23:56:48,660 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3324, 'prev_value': 3323, 'change': 1}
+2025-11-04 23:56:48,661 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3283, 'prev_value': 3282, 'change': 1}
+2025-11-04 23:56:48,661 : INFO : EventManager : Event: ======'bumper2_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,661 : INFO : EventManager : Event: ======'bumper2_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,661 : INFO : EventManager : Event: ======'bumper2_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,661 : INFO : EventManager : Event: ======'bumper2_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:48,662 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:48,662 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper2'}
+2025-11-04 23:56:48,775 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:48,775 : INFO : SwitchController : <<<<<<< 's_popbumper2' inactive >>>>>>>
+2025-11-04 23:56:54,963 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:54,963 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:54,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3384, 'prev_value': 3383, 'change': 1}
+2025-11-04 23:56:54,964 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3340, 'prev_value': 3339, 'change': 1}
+2025-11-04 23:56:54,970 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:54,970 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:54,970 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:54,970 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:54,971 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:54,971 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,128 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:55,297 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:55,297 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:55,298 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3385, 'prev_value': 3384, 'change': 1}
+2025-11-04 23:56:55,298 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3341, 'prev_value': 3340, 'change': 1}
+2025-11-04 23:56:55,299 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,299 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,299 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,299 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,300 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,300 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,428 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:55,546 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:55,546 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:55,546 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3386, 'prev_value': 3385, 'change': 1}
+2025-11-04 23:56:55,547 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3342, 'prev_value': 3341, 'change': 1}
+2025-11-04 23:56:55,547 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,547 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,547 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,548 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,548 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,548 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,645 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:55,746 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:55,746 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:55,746 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3387, 'prev_value': 3386, 'change': 1}
+2025-11-04 23:56:55,747 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3343, 'prev_value': 3342, 'change': 1}
+2025-11-04 23:56:55,747 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,747 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,748 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,748 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,748 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,748 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,844 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:55,929 : INFO : SwitchController : <<<<<<< 's_popbumper1' active >>>>>>>
+2025-11-04 23:56:55,929 : INFO : EventManager : Event: ======'s_popbumper1_active'====== Args={}
+2025-11-04 23:56:55,929 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3388, 'prev_value': 3387, 'change': 1}
+2025-11-04 23:56:55,930 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3344, 'prev_value': 3343, 'change': 1}
+2025-11-04 23:56:55,930 : INFO : EventManager : Event: ======'bumper1_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,930 : INFO : EventManager : Event: ======'bumper1_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,931 : INFO : EventManager : Event: ======'bumper1_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,931 : INFO : EventManager : Event: ======'bumper1_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:55,931 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:55,931 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper1'}
+2025-11-04 23:56:56,044 : INFO : SwitchController : <<<<<<< 's_popbumper1' inactive >>>>>>>
+2025-11-04 23:56:58,497 : INFO : SwitchController : <<<<<<< 's_left_inlane1' active >>>>>>>
+2025-11-04 23:56:58,497 : INFO : EventManager : Event: ======'s_left_inlane1_active'====== Args={}
+2025-11-04 23:56:58,497 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:56:58,497 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane1'====== Args={'value': 54, 'prev_value': 53, 'change': 1}
+2025-11-04 23:56:58,498 : INFO : EventManager : Event: ======'player_shot_switch_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:58,504 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 133, 'prev_value': 132, 'change': 1}
+2025-11-04 23:56:58,504 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,504 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,505 : INFO : EventManager : Event: ======'switch_shot_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,505 : INFO : EventManager : Event: ======'switch_shot_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,505 : INFO : EventManager : Event: ======'player_shot_c_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:58,506 : INFO : EventManager : Event: ======'machine_var_audits_shots_c_shot'====== Args={'value': 51, 'prev_value': 50, 'change': 1}
+2025-11-04 23:56:58,506 : INFO : EventManager : Event: ======'c_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,506 : INFO : EventManager : Event: ======'c_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,506 : INFO : EventManager : Event: ======'c_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,506 : INFO : EventManager : Event: ======'c_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:58,507 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 'c_shot'}
+2025-11-04 23:56:58,507 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 'c_shot'}
+2025-11-04 23:56:58,612 : INFO : SwitchController : <<<<<<< 's_left_inlane1' inactive >>>>>>>
+2025-11-04 23:56:59,846 : INFO : SwitchController : <<<<<<< 's_left_inlane2' active >>>>>>>
+2025-11-04 23:56:59,846 : INFO : EventManager : Event: ======'s_left_inlane2_active'====== Args={}
+2025-11-04 23:56:59,847 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:56:59,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane2'====== Args={'value': 53, 'prev_value': 52, 'change': 1}
+2025-11-04 23:56:59,847 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 134, 'prev_value': 133, 'change': 1}
+2025-11-04 23:56:59,848 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:59,848 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:59,848 : INFO : EventManager : Event: ======'switch_shot_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:59,848 : INFO : EventManager : Event: ======'switch_shot_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:56:59,848 : INFO : EventManager : Event: ======'player_shot_s_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:56:59,849 : INFO : EventManager : Event: ======'machine_var_audits_shots_s_shot'====== Args={'value': 50, 'prev_value': 49, 'change': 1}
+2025-11-04 23:56:59,849 : INFO : EventManager : Event: ======'s_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:59,850 : INFO : EventManager : Event: ======'s_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:59,850 : INFO : EventManager : Event: ======'s_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:59,850 : INFO : EventManager : Event: ======'s_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:56:59,850 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 's_shot'}
+2025-11-04 23:56:59,850 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 's_shot'}
+2025-11-04 23:57:00,078 : INFO : SwitchController : <<<<<<< 's_left_inlane2' inactive >>>>>>>
+2025-11-04 23:57:02,447 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-04 23:57:02,447 : INFO : EventManager : Event: ======'s_right_inlane_active'====== Args={}
+2025-11-04 23:57:02,447 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:57:02,447 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2025-11-04 23:57:02,448 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 135, 'prev_value': 134, 'change': 1}
+2025-11-04 23:57:02,448 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:02,448 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:02,449 : INFO : EventManager : Event: ======'switch_shot_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:02,454 : INFO : EventManager : Event: ======'switch_shot_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:02,454 : INFO : EventManager : Event: ======'player_shot_i_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:57:02,455 : INFO : EventManager : Event: ======'machine_var_audits_shots_i_shot'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2025-11-04 23:57:02,455 : INFO : EventManager : Event: ======'i_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:02,455 : INFO : EventManager : Event: ======'i_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:02,455 : INFO : EventManager : Event: ======'i_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:02,456 : INFO : EventManager : Event: ======'i_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:02,456 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'lit'}
+2025-11-04 23:57:02,456 : INFO : EventManager : Event: ======'csi_shots_lit_complete'====== Args={}
+2025-11-04 23:57:02,456 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 50000, 'prev_value': 0, 'change': 50000, 'player_num': 1, 'source': 'base'}
+2025-11-04 23:57:02,456 : INFO : EventManager : Event: ======'player_multiplier'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1, 'source': 'base'}
+2025-11-04 23:57:02,457 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 'i_shot'}
+2025-11-04 23:57:02,457 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 'i_shot'}
+2025-11-04 23:57:02,547 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-04 23:57:03,458 : INFO : EventManager : Event: ======'player_shot_c_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:03,466 : INFO : EventManager : Event: ======'player_shot_s_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:03,467 : INFO : EventManager : Event: ======'player_shot_i_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:03,468 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'unlit'}
+2025-11-04 23:57:03,468 : INFO : EventManager : Event: ======'csi_shots_unlit_complete'====== Args={}
+2025-11-04 23:57:11,630 : INFO : SwitchController : <<<<<<< 's_left_inlane1' active >>>>>>>
+2025-11-04 23:57:11,630 : INFO : EventManager : Event: ======'s_left_inlane1_active'====== Args={}
+2025-11-04 23:57:11,630 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:57:11,631 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane1'====== Args={'value': 55, 'prev_value': 54, 'change': 1}
+2025-11-04 23:57:11,631 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 136, 'prev_value': 135, 'change': 1}
+2025-11-04 23:57:11,632 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:11,637 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:11,637 : INFO : EventManager : Event: ======'switch_shot_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:11,638 : INFO : EventManager : Event: ======'switch_shot_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:11,638 : INFO : EventManager : Event: ======'player_shot_c_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:57:11,638 : INFO : EventManager : Event: ======'machine_var_audits_shots_c_shot'====== Args={'value': 52, 'prev_value': 51, 'change': 1}
+2025-11-04 23:57:11,639 : INFO : EventManager : Event: ======'c_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:11,639 : INFO : EventManager : Event: ======'c_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:11,639 : INFO : EventManager : Event: ======'c_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:11,639 : INFO : EventManager : Event: ======'c_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:11,640 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 'c_shot'}
+2025-11-04 23:57:11,640 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 'c_shot'}
+2025-11-04 23:57:11,761 : INFO : SwitchController : <<<<<<< 's_left_inlane1' inactive >>>>>>>
+2025-11-04 23:57:12,796 : INFO : SwitchController : <<<<<<< 's_left_inlane2' active >>>>>>>
+2025-11-04 23:57:12,796 : INFO : EventManager : Event: ======'s_left_inlane2_active'====== Args={}
+2025-11-04 23:57:12,796 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:57:12,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane2'====== Args={'value': 54, 'prev_value': 53, 'change': 1}
+2025-11-04 23:57:12,797 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 137, 'prev_value': 136, 'change': 1}
+2025-11-04 23:57:12,797 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:12,798 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:12,798 : INFO : EventManager : Event: ======'switch_shot_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:12,798 : INFO : EventManager : Event: ======'switch_shot_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:12,798 : INFO : EventManager : Event: ======'player_shot_s_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:57:12,799 : INFO : EventManager : Event: ======'machine_var_audits_shots_s_shot'====== Args={'value': 51, 'prev_value': 50, 'change': 1}
+2025-11-04 23:57:12,799 : INFO : EventManager : Event: ======'s_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:12,799 : INFO : EventManager : Event: ======'s_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:12,799 : INFO : EventManager : Event: ======'s_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:12,800 : INFO : EventManager : Event: ======'s_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:12,800 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 's_shot'}
+2025-11-04 23:57:12,800 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 's_shot'}
+2025-11-04 23:57:12,929 : INFO : SwitchController : <<<<<<< 's_left_inlane2' inactive >>>>>>>
+2025-11-04 23:57:17,696 : INFO : SwitchController : <<<<<<< 's_right_inlane' active >>>>>>>
+2025-11-04 23:57:17,697 : INFO : EventManager : Event: ======'s_right_inlane_active'====== Args={}
+2025-11-04 23:57:17,697 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-11-04 23:57:17,697 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2025-11-04 23:57:17,698 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 138, 'prev_value': 137, 'change': 1}
+2025-11-04 23:57:17,698 : INFO : EventManager : Event: ======'switch_shot_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:17,703 : INFO : EventManager : Event: ======'switch_shot_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:17,704 : INFO : EventManager : Event: ======'switch_shot_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:17,704 : INFO : EventManager : Event: ======'switch_shot_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2025-11-04 23:57:17,704 : INFO : EventManager : Event: ======'player_shot_i_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-04 23:57:17,705 : INFO : EventManager : Event: ======'machine_var_audits_shots_i_shot'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2025-11-04 23:57:17,705 : INFO : EventManager : Event: ======'i_shot_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:17,705 : INFO : EventManager : Event: ======'i_shot_csi_shot_profile_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:17,705 : INFO : EventManager : Event: ======'i_shot_csi_shot_profile_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:17,706 : INFO : EventManager : Event: ======'i_shot_unlit_hit'====== Args={'profile': 'csi_shot_profile', 'state': 'unlit', 'advancing': True}
+2025-11-04 23:57:17,706 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'lit'}
+2025-11-04 23:57:17,706 : INFO : EventManager : Event: ======'csi_shots_lit_complete'====== Args={}
+2025-11-04 23:57:17,706 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100000, 'prev_value': 50000, 'change': 50000, 'player_num': 1, 'source': 'base'}
+2025-11-04 23:57:17,706 : INFO : EventManager : Event: ======'player_multiplier'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1, 'source': 'base'}
+2025-11-04 23:57:17,707 : INFO : EventManager : Event: ======'csi_shots_hit'====== Args={'shot': 'i_shot'}
+2025-11-04 23:57:17,707 : INFO : EventManager : Event: ======'csi_shots_unlit_hit'====== Args={'shot': 'i_shot'}
+2025-11-04 23:57:17,845 : INFO : SwitchController : <<<<<<< 's_right_inlane' inactive >>>>>>>
+2025-11-04 23:57:18,714 : INFO : EventManager : Event: ======'player_shot_c_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:18,715 : INFO : EventManager : Event: ======'player_shot_s_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:18,716 : INFO : EventManager : Event: ======'player_shot_i_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-11-04 23:57:18,717 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'unlit'}
+2025-11-04 23:57:18,717 : INFO : EventManager : Event: ======'csi_shots_unlit_complete'====== Args={}
+2025-11-04 23:59:16,488 : INFO : Machine : Shutting down...
+2025-11-04 23:59:16,488 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-04 23:59:16,490 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-11-04 23:59:16,490 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-11-04 23:59:16,490 : INFO : EventManager : Event: ======'mode_bumpers_will_stop'====== Args={}
+2025-11-04 23:59:16,490 : INFO : EventManager : Event: ======'mode_bumpers_stopping'====== Args={}
+2025-11-04 23:59:16,490 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-11-04 23:59:16,491 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-11-04 23:59:16,491 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2025-11-04 23:59:16,491 : INFO : Mode.base : Stopped.
+2025-11-04 23:59:16,491 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:59:16,491 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-11-04 23:59:16,491 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-11-04 23:59:16,492 : INFO : Timer.player_added_timer : Stopping Timer
+2025-11-04 23:59:16,492 : INFO : EventManager : Event: ======'timer_player_added_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-04 23:59:16,492 : INFO : Mode.bumpers : Stopped.
+2025-11-04 23:59:16,492 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:59:16,492 : INFO : EventManager : Event: ======'mode_bumpers_stopped'====== Args={}
+2025-11-04 23:59:16,492 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bumpers'}
+2025-11-04 23:59:16,492 : INFO : Mode.game : Stopped.
+2025-11-04 23:59:16,492 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-04 23:59:16,493 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-11-04 23:59:16,493 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-11-04 23:59:16,495 : INFO : root : MPF run loop ended.

@@ -1,0 +1,132 @@
+2025-11-05 00:20:57,546 : INFO : root : Loading config.
+2025-11-05 00:20:57,547 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-05 00:20:57,548 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-11-05 00:20:57,559 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-05 00:20:57,559 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-11-05 00:20:57,559 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-05 00:20:57,560 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-11-05 00:20:57,560 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/4c420229fa75118c2461cfc9ff5a44e2.mpf_cache
+2025-11-05 00:20:57,560 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/f5ee6852f1764324c8553249cc53c871.mpf_cache
+2025-11-05 00:20:57,560 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-11-05 00:20:57,560 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-05-00-20-57-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-05-00-20-57-mpf-mac.home.log'}
+2025-11-05 00:20:57,560 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-11-05 00:20:57,560 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-11-05 00:20:57,560 : INFO : Machine : Platform: darwin
+2025-11-05 00:20:57,560 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-11-05 00:20:57,560 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-11-05 00:20:57,560 : INFO : Machine : Initializing MPF...
+2025-11-05 00:20:57,573 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,576 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,576 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 208000, 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,576 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,576 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,576 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,581 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-05-00-20-57-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-11-05 00:20:57,582 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-05 00:20:57,586 : ERROR : asyncio : Exception in callback EventManager._async_handler_done()() at /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done()() at /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 295, in _validate_dict
+    item = Util.event_config_to_dict(item)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/utility_functions.py", line 332, in event_config_to_dict
+    return_dict[event] = 0
+    ~~~~~~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config_section, config, self.name, "device", prefix=debug_prefix)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 272, in validate_config_item
+    return self._validate_dict(item_type, validation, validation_failure_info, item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 297, in _validate_dict
+    raise self.validation_error(item, validation_failure_info, "Could not convert item to dict", 8)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:base:shot_groups:csi_shots:reset_events = "[{'csi_shots_lit_complete': '1s'}, {'mode_base_started': '1s'}]" is not valid. Could not convert item to dict Error Code: CFE-ConfigValidator-8 (https://missionpinball.org/logs)
+2025-11-05 00:20:57,587 : INFO : Machine : Starting the main run loop with active modes: []
+2025-11-05 00:20:57,587 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-11-05 00:20:57,587 : INFO : Machine : Shutting down...
+2025-11-05 00:20:57,587 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-05 00:20:58,590 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 295, in _validate_dict
+    item = Util.event_config_to_dict(item)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/utility_functions.py", line 332, in event_config_to_dict
+    return_dict[event] = 0
+    ~~~~~~~~~~~^^^^^^^
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.config_section, config, self.name, "device", prefix=debug_prefix)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 272, in validate_config_item
+    return self._validate_dict(item_type, validation, validation_failure_info, item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_validator.py", line 297, in _validate_dict
+    raise self.validation_error(item, validation_failure_info, "Could not convert item to dict", 8)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:base:shot_groups:csi_shots:reset_events = "[{'csi_shots_lit_complete': '1s'}, {'mode_base_started': '1s'}]" is not valid. Could not convert item to dict Error Code: CFE-ConfigValidator-8 (https://missionpinball.org/logs)
+2025-11-05 00:20:58,593 : INFO : root : MPF run loop ended.

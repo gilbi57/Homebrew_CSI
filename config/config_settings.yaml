@@ -27,6 +27,19 @@ settings:
       3: '3'
       4: '4 (default)'
 
+  bonus_timer:
+    sort: 12
+    label: Bonus Timer
+    key_type: int
+    default: 10
+    values:
+      6: '6s'
+      8: '8s'
+      10: '10s (default)'
+      12: '12s'
+      14: '14s'
+
+
   flipper_main_coil_power:
     sort: 151
     label: Flipper main power
@@ -45,8 +58,6 @@ settings:
       50: '50 ms'
       60: '60 ms'
       70: '70 ms'
-
-      
 
   upper_flipper_main_coil_power:
     sort: 153

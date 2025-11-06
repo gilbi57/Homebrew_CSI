@@ -1,0 +1,20 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_skull
+  stop_events: stop_mode_skull
+  priority: 200
+
+light_player:
+  s_ramp_active{current_player.skull_ramp_nb==10}:
+    l_light_lock: on
+
+variable_player:
+  mode_skull_started:
+    skull_ramp_nb:
+      int: 0
+      action: set
+  s_ramp_active:
+    skull_ramp_nb: 1
+
+  

@@ -17,6 +17,23 @@ shot_groups:
   bumpers: 
     shots: bumper1, bumper2, bumper3
 
+timers:
+  bumper_timer:
+    end_value: 1
+    tick_interval: 0.2s
+    start_running: true
+    control_events:
+      - event: bumpers_hit
+        action: restart
+
+widget_player:
+  bumpers_hit: 
+    bumper_widget
+  timer_bumper_timer_complete:
+    bumper_widget:
+      action: remove
+
 variable_player:
   bumpers_hit: 
-    score: 10_000
+    score: 3_000
+

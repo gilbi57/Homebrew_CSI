@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://dxvfiioo2y1rl"]
 
-[ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_jlqis"]
-[ext_resource type="FontFile" uid="uid://c7s6mfr6nmkje" path="res://assets/fonts/mmsarica_csi.ttf" id="2_isahl"]
-[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="3_uu4ip"]
+[ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_do7xy"]
+[ext_resource type="FontFile" uid="uid://c7s6mfr6nmkje" path="res://assets/fonts/mmsarica_csi.ttf" id="2_nfcpb"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="3_2senu"]
 
-[node name="start_mission_widget" type="Control"]
+[node name="selectmission_widget" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_jlqis")
+script = ExtResource("1_do7xy")
 metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -33,12 +33,13 @@ offset_top = 100.0
 offset_right = 155.5
 offset_bottom = 168.0
 grow_horizontal = 2
-theme_override_fonts/font = ExtResource("2_isahl")
+theme_override_fonts/font = ExtResource("2_nfcpb")
 theme_override_font_sizes/font_size = 60
 text = "Select Mission"
 
 [node name="MPFCarousel" type="Control" parent="."]
 top_level = true
+z_index = 1
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -51,58 +52,45 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("3_uu4ip")
+script = ExtResource("3_2senu")
 carousel_name = "selectmission"
 metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 
-[node name="mission1" type="Label" parent="MPFCarousel"]
+[node name="skull" type="Label" parent="MPFCarousel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("2_isahl")
+theme_override_fonts/font = ExtResource("2_nfcpb")
 theme_override_font_sizes/font_size = 50
-text = "Mission 1"
+text = "Skull"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="mission2" type="Label" parent="MPFCarousel"]
+[node name="centrifuge" type="Label" parent="MPFCarousel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("2_isahl")
+theme_override_fonts/font = ExtResource("2_nfcpb")
 theme_override_font_sizes/font_size = 50
-text = "Mission 2"
+text = "Centrifuge"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="mission3" type="Label" parent="MPFCarousel"]
+[node name="microscope" type="Label" parent="MPFCarousel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("2_isahl")
+theme_override_fonts/font = ExtResource("2_nfcpb")
 theme_override_font_sizes/font_size = 50
-text = "Mission 3"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="mission4" type="Label" parent="MPFCarousel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_fonts/font = ExtResource("2_isahl")
-theme_override_font_sizes/font_size = 50
-text = "Mission 4"
+text = "Microscope"
 horizontal_alignment = 1
 vertical_alignment = 1

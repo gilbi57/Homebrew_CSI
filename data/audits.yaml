@@ -1,20 +1,32 @@
 events:
-  game_ended: 50
-  game_started: 333
+  game_ended: 53
+  game_started: 438
 missing_switches:
-  s_drain: 35
-  s_launch_button: 333
-  s_sling_left: 333
-  s_sling_right: 333
-  s_start: 8
-  s_trough1: 35
-  s_trough2: 37
-  s_trough3: 111
-  s_trough4: 111
-  s_trough_jam: 47
+  s_drain: 5
+  s_launch_button: 85
+  s_left_flipper: 21
+  s_left_inlane1: 11
+  s_left_inlane2: 11
+  s_left_outlane: 53
+  s_popbumper1: 11
+  s_popbumper2: 10
+  s_popbumper3: 13
+  s_right_flipper: 21
+  s_right_inlane: 11
+  s_right_orbit: 12
+  s_right_outlane: 53
+  s_scoop: 12
+  s_sling_left: 438
+  s_sling_right: 438
+  s_start: 17
+  s_trough1: 5
+  s_trough2: 59
+  s_trough3: 216
+  s_trough4: 216
+  s_trough_jam: 152
 player:
   score:
-    average: 223095
+    average: 219097
     top:
     - 10210000
     - 1550000
@@ -26,26 +38,38 @@ player:
     - 570000
     - 530000
     - 480000
-    total: 109
+    total: 114
 shots:
-  bumper1: 3298
-  bumper2: 3247
-  bumper3: 2975
+  bumper1: 3793
+  bumper2: 3713
+  bumper3: 3606
+  c_shot: 157
+  csi_shot: 9
+  i_shot: 132
+  s_shot: 148
+  switch_shot: 245
 switches:
-  s_drain: 498
-  s_launch_button: 0
-  s_left_flipper: 205
-  s_plunger_lane: 685
-  s_popbumper1: 3342
-  s_popbumper2: 3288
-  s_popbumper3: 3017
-  s_right_flipper: 315
-  s_scoop: 296
+  s_drain: 526
+  s_launch_button: 1
+  s_left_flipper: 370
+  s_left_inlane1: 167
+  s_left_inlane2: 155
+  s_left_outlane: 1
+  s_plunger_lane: 808
+  s_popbumper1: 3837
+  s_popbumper2: 3754
+  s_popbumper3: 3648
+  s_ramp: 218
+  s_right_flipper: 628
+  s_right_inlane: 138
+  s_right_orbit: 41
+  s_right_outlane: 5
+  s_scoop: 424
   s_sling_left: 0
   s_sling_right: 0
-  s_start: 622
-  s_trough1: 350
-  s_trough2: 14
+  s_start: 654
+  s_trough1: 372
+  s_trough2: 16
   s_trough3: 1
   s_trough4: 1
   s_trough_jam: 8

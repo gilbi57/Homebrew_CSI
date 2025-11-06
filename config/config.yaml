@@ -8,9 +8,20 @@ game:
   balls_per_game: 3
   max_players: 4
 
+player_vars:
+  bonus_multiplier:
+    value_type: int
+    initial_value: 1
+  skull_ramp_nb:
+    value_type: int
+    initial_value: 0
+# Number of times making the ramp before activating Lock
+
 modes:
   - attract
   - base
   - bumpers
   - selectmission
+  - skull
+  - csi_lanes
   

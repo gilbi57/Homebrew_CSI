@@ -1,0 +1,379 @@
+2025-11-07 00:54:08,662 : INFO : root : Loading config.
+2025-11-07 00:54:08,663 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-11-07 00:54:08,663 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/5ca32a6c950d03116abbed96ca44d372.mpf_cache
+2025-11-07 00:54:08,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-07 00:54:08,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/bfde29b5bb803376b0637bb8f0da27a7.mpf_cache
+2025-11-07 00:54:08,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/01c495fa7450a81b4be96cb699872531.mpf_cache
+2025-11-07 00:54:08,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/3ae89e09515ff8d8b11d68f672b2cc51.mpf_cache
+2025-11-07 00:54:08,676 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/4c420229fa75118c2461cfc9ff5a44e2.mpf_cache
+2025-11-07 00:54:08,676 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/f5ee6852f1764324c8553249cc53c871.mpf_cache
+2025-11-07 00:54:08,676 : WARNING : ConfigProcessor : Config file in cache changed: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/skull/config/skull.yaml
+2025-11-07 00:54:08,676 : INFO : ConfigProcessor : Loading config from file /Users/didiergilbin/Desktop/Homebrew_CSI/modes/skull/config/skull.yaml.
+2025-11-07 00:54:08,677 : INFO : ConfigProcessor : Loading config: /Users/didiergilbin/Desktop/Homebrew_CSI/modes/skull/config/skull.yaml
+2025-11-07 00:54:08,677 : INFO : ConfigProcessor : Config file cache created: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/73ac54cb7a83dfa5473900e439743a84.mpf_cache
+2025-11-07 00:54:08,677 : INFO : ConfigProcessor : Loading config from cache: /var/folders/m3/0d4y64_n3fn8tnkv3ydlhztw0000gn/T/97c87487bc6ae826da86d36a6e042c78.mpf_cache
+2025-11-07 00:54:08,677 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev10
+2025-11-07 00:54:08,677 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-11-07-00-54-08-mpf-mac.home.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-07-00-54-08-mpf-mac.home.log'}
+2025-11-07 00:54:08,677 : INFO : Machine : MPF path: /Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf
+2025-11-07 00:54:08,677 : INFO : Machine : Machine path: /Users/didiergilbin/Desktop/Homebrew_CSI
+2025-11-07 00:54:08,677 : INFO : Machine : Platform: darwin
+2025-11-07 00:54:08,677 : INFO : Machine : Python executable location: /Users/didiergilbin/mpfenv/bin/python3.13
+2025-11-07 00:54:08,677 : INFO : Machine : Python version: 3.13.7 (64-bit)
+2025-11-07 00:54:08,678 : INFO : Machine : Initializing MPF...
+2025-11-07 00:54:08,690 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 69000, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 196000, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_player3_score'====== Args={'value': 187000, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev10, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,694 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.7', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,699 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.6.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.6.0', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:40 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8132', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/didiergilbin/Desktop/Homebrew_CSI/logs/2025-11-07-00-54-08-mpf-mac.home.log', 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,700 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-11-07 00:54:08,705 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-11-07 00:54:08,706 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-11-07 00:54:08,706 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-11-07 00:54:08,706 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-11-07 00:54:08,706 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-11-07 00:54:08,706 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-11-07 00:54:08,707 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-11-07 00:54:08,709 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-11-07 00:54:08,709 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-11-07 00:54:08,709 : INFO : ball_device.bd_drain : BCH: Initial count: 0
+2025-11-07 00:54:08,709 : INFO : ball_device.bd_drain : State: idle
+2025-11-07 00:54:08,710 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2025-11-07 00:54:08,710 : INFO : ball_device.bd_trough : State: idle
+2025-11-07 00:54:08,710 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-11-07 00:54:08,710 : INFO : ball_device.bd_plunger : State: idle
+2025-11-07 00:54:08,713 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-11-07 00:54:08,714 : INFO : BallController : Initial balls found: 4
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 436, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_drain'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_launch_button'====== Args={'value': 83, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane1'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_inlane2'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_outlane'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_popbumper1'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_popbumper2'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_popbumper3'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_orbit'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_outlane'====== Args={'value': 51, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_scoop'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_left'====== Args={'value': 436, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_right'====== Args={'value': 436, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough1'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough2'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough3'====== Args={'value': 214, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough4'====== Args={'value': 214, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_jam'====== Args={'value': 150, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 219097, 'top': [10210000, 1550000, 1070000, 1070000, 810000, 710000, 640000, 570000, 530000, 480000], 'total': 114}, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper1'====== Args={'value': 3793, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper2'====== Args={'value': 3713, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper3'====== Args={'value': 3606, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_c_shot'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_csi_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_i_shot'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_s_shot'====== Args={'value': 148, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_shots_switch_shot'====== Args={'value': 245, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 526, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 370, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane1'====== Args={'value': 167, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane2'====== Args={'value': 155, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_outlane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 807, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper1'====== Args={'value': 3837, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper2'====== Args={'value': 3754, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_popbumper3'====== Args={'value': 3648, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp'====== Args={'value': 197, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 628, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 138, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_orbit'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop'====== Args={'value': 424, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 654, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 372, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-11-07 00:54:08,715 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-11-07 00:54:08,721 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-11-07 00:54:08,721 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-11-07 00:54:08,722 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-11-07 00:54:08,722 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-11-07 00:54:08,723 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-11-07 00:54:08,723 : INFO : Mode.attract : Started. Priority: 10
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-11-07 00:54:08,723 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2025-11-07 00:54:08,723 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-11-07 00:54:09,065 : INFO : BcpServer : New client connected.
+2025-11-07 00:54:09,108 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2025-11-07 00:54:09,108 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2025-11-07 00:54:09,108 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2025-11-07 00:54:13,723 : INFO : Timer.attract_carousel_timer : Timer Complete
+2025-11-07 00:54:13,723 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-11-07 00:54:13,724 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-07 00:54:13,724 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-07 00:54:13,724 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2025-11-07 00:54:15,254 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-11-07 00:54:15,405 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-11-07 00:54:15,405 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-11-07 00:54:15,407 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.15100541699212044}
+2025-11-07 00:54:15,408 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.15100541699212044}
+2025-11-07 00:54:15,409 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.15100541699212044}
+2025-11-07 00:54:15,409 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-11-07 00:54:15,410 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-11-07 00:54:15,410 : INFO : Mode.attract : Stopped.
+2025-11-07 00:54:15,410 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:15,411 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-11-07 00:54:15,412 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-11-07 00:54:15,412 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2025-11-07 00:54:15,412 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-07 00:54:15,413 : INFO : Mode.game : Started. Priority: 20
+2025-11-07 00:54:15,413 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:15,414 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.15100541699212044}
+2025-11-07 00:54:15,415 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-11-07 00:54:15,415 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-11-07 00:54:15,416 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('117a6f24-f45b-4cab-adaf-44c18424338f'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('cd3fb2bb-16a1-4200-bb65-0dc870bbd078'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-11-07 00:54:15,416 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-11-07 00:54:15,417 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-11-07 00:54:15,417 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-07 00:54:15,418 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-11-07 00:54:15,418 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-11-07 00:54:15,418 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,419 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,419 : INFO : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,419 : INFO : EventManager : Event: ======'player_skull_ramp_nb'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,420 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,421 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-11-07 00:54:15,422 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-07 00:54:15,428 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-07 00:54:15,429 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,429 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-11-07 00:54:15,430 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,430 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,430 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,431 : INFO : EventManager : Event: ======'player_base_player_added_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,431 : INFO : Timer.player_added_timer : Starting Timer.
+2025-11-07 00:54:15,431 : INFO : EventManager : Event: ======'timer_player_added_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,431 : INFO : EventManager : Event: ======'timer_player_added_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,432 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,432 : INFO : Mode.base : Started. Priority: 100
+2025-11-07 00:54:15,433 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:15,433 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,433 : INFO : EventManager : Event: ======'start_mode_bumpers'====== Args={'priority': 0}
+2025-11-07 00:54:15,433 : INFO : EventManager : Event: ======'start_mode_csi_lanes'====== Args={'priority': 0}
+2025-11-07 00:54:15,433 : INFO : EventManager : Event: ======'start_mode_skull'====== Args={'priority': 0}
+2025-11-07 00:54:15,434 : INFO : EventManager : Event: ======'mode_bumpers_will_start'====== Args={'priority': 0}
+2025-11-07 00:54:15,434 : INFO : EventManager : Event: ======'player_shot_bumper1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,435 : INFO : EventManager : Event: ======'player_shot_bumper2_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,435 : INFO : EventManager : Event: ======'player_shot_bumper3_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,436 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'unlit'}
+2025-11-07 00:54:15,436 : INFO : EventManager : Event: ======'bumpers_unlit_complete'====== Args={}
+2025-11-07 00:54:15,436 : INFO : EventManager : Event: ======'player_bumpers_bumper_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,436 : INFO : Timer.bumper_timer : Starting Timer.
+2025-11-07 00:54:15,436 : INFO : EventManager : Event: ======'timer_bumper_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,437 : INFO : EventManager : Event: ======'timer_bumper_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,437 : INFO : EventManager : Event: ======'mode_bumpers_starting'====== Args={'priority': 0}
+2025-11-07 00:54:15,437 : INFO : EventManager : Event: ======'mode_csi_lanes_will_start'====== Args={'priority': 0}
+2025-11-07 00:54:15,437 : INFO : EventManager : Event: ======'player_shot_c_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,438 : INFO : EventManager : Event: ======'player_shot_s_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,438 : INFO : EventManager : Event: ======'player_shot_i_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-11-07 00:54:15,438 : INFO : EventManager : Event: ======'csi_shots_complete'====== Args={'state': 'unlit'}
+2025-11-07 00:54:15,438 : INFO : EventManager : Event: ======'csi_shots_unlit_complete'====== Args={}
+2025-11-07 00:54:15,439 : INFO : EventManager : Event: ======'player_csi_lanes_csi_lanes_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,439 : INFO : Timer.csi_lanes_timer : Starting Timer.
+2025-11-07 00:54:15,439 : INFO : EventManager : Event: ======'timer_csi_lanes_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,439 : INFO : EventManager : Event: ======'timer_csi_lanes_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,440 : INFO : EventManager : Event: ======'player_csi_lanes_csi_right_orbit_timer_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-11-07 00:54:15,441 : INFO : EventManager : Event: ======'mode_csi_lanes_starting'====== Args={'priority': 0}
+2025-11-07 00:54:15,441 : INFO : EventManager : Event: ======'mode_skull_will_start'====== Args={'priority': 0}
+2025-11-07 00:54:15,441 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 663, in _parse_template
+    return ast.parse(template_str, mode='eval').body
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    current_player.skull_ramp_nb=10
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode.py", line 218, in start
+    result = item.method(config=self.config.get(item.config_section, self.config),
+                         priority=self.priority,
+                         mode=self,
+                         **item.kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 221, in mode_start
+    event_keys = self.register_player_events(config, mode, priority)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 315, in register_player_events
+    self.machine.events.add_handler(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        event=event,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        mode=mode,
+        ^^^^^^^^^^
+        settings=settings))
+        ^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 235, in add_handler
+    event, condition, additional_priority = self.get_event_and_condition_from_string(event)
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 90, in get_event_and_condition_from_string
+    placeholder = self.machine.placeholder_manager.build_bool_template(event_string[first_bracket_pos + 1:-1])
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 810, in build_bool_template
+    return BoolTemplate(self._parse_template(template_str), template_str, self, default_value)
+                        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 665, in _parse_template
+    raise AssertionError('Failed to parse template "{}"'.format(template_str))
+AssertionError: Failed to parse template "current_player.skull_ramp_nb=10"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                        ev_type=event[1],
+                        ^^^^^^^^^^^^^^^^^
+                        callback=event[2],
+                        ^^^^^^^^^^^^^^^^^^
+                        **event[3])
+                        ^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+        "Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method Mode.start of <Mode.skull>>, priority=200, kwargs={}, key=UUID('7072055d-4d1c-4a1c-af74-ae1c862184fa'), condition=None, blocking_facility=None) for event start_mode_skull. Failed to parse template "current_player.skull_ramp_nb=10"
+2025-11-07 00:54:15,447 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-11-07 00:54:15,447 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-11-07 00:54:15,448 : INFO : Mode.bumpers : Will not start because machine is shutting down.
+2025-11-07 00:54:15,448 : INFO : EventManager : Event: ======'logicblock_csi_lanes_then_scoop_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-07 00:54:15,448 : INFO : EventManager : Event: ======'logicblock_csi_lanes_then_scoop_then_right_orbit_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-07 00:54:15,448 : INFO : EventManager : Event: ======'logicblock_csi_lanes_then_scoop_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-07 00:54:15,448 : INFO : EventManager : Event: ======'logicblock_csi_lanes_then_scoop_then_right_orbit_updated'====== Args={'value': 0, 'enabled': True}
+2025-11-07 00:54:15,448 : INFO : Mode.csi_lanes : Will not start because machine is shutting down.
+2025-11-07 00:54:15,448 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-11-07 00:54:15,449 : INFO : Machine : Shutting down...
+2025-11-07 00:54:15,449 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-07 00:54:15,449 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-11-07 00:54:15,449 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'stop_mode_csi_lanes'====== Args={'priority': 0}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'stop_mode_skull'====== Args={'priority': 0}
+2025-11-07 00:54:15,450 : INFO : Mode.base : Stopped.
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-11-07 00:54:15,450 : INFO : Timer.player_added_timer : Stopping Timer
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'timer_player_added_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2025-11-07 00:54:15,450 : INFO : Mode.game : Stopped.
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-11-07 00:54:15,450 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-11-07 00:54:15,451 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 663, in _parse_template
+    return ast.parse(template_str, mode='eval').body
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+                   _feature_version=feature_version, optimize=optimize)
+  File "<unknown>", line 1
+    current_player.skull_ramp_nb=10
+                                ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/mode.py", line 218, in start
+    result = item.method(config=self.config.get(item.config_section, self.config),
+                         priority=self.priority,
+                         mode=self,
+                         **item.kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 221, in mode_start
+    event_keys = self.register_player_events(config, mode, priority)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/config_player.py", line 315, in register_player_events
+    self.machine.events.add_handler(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        event=event,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        mode=mode,
+        ^^^^^^^^^^
+        settings=settings))
+        ^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 235, in add_handler
+    event, condition, additional_priority = self.get_event_and_condition_from_string(event)
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 90, in get_event_and_condition_from_string
+    placeholder = self.machine.placeholder_manager.build_bool_template(event_string[first_bracket_pos + 1:-1])
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 810, in build_bool_template
+    return BoolTemplate(self._parse_template(template_str), template_str, self, default_value)
+                        ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/placeholder_manager.py", line 665, in _parse_template
+    raise AssertionError('Failed to parse template "{}"'.format(template_str))
+AssertionError: Failed to parse template "current_player.skull_ramp_nb=10"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+                        ev_type=event[1],
+                        ^^^^^^^^^^^^^^^^^
+                        callback=event[2],
+                        ^^^^^^^^^^^^^^^^^^
+                        **event[3])
+                        ^^^^^^^^^^^
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "/Users/didiergilbin/mpfenv/lib/python3.13/site-packages/mpf/core/events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+        "Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method Mode.start of <Mode.skull>>, priority=200, kwargs={}, key=UUID('7072055d-4d1c-4a1c-af74-ae1c862184fa'), condition=None, blocking_facility=None) for event start_mode_skull. Failed to parse template "current_player.skull_ramp_nb=10"
+2025-11-07 00:54:15,453 : INFO : root : MPF run loop ended.

@@ -11,10 +11,14 @@ mode:
 event_player:
   mode_base_started:
     - start_mode_bumpers
+    - start_mode_csi_lanes
+    - start_mode_skull
   mode_base_will_stop:
     - stop_mode_bumpers
-  s_scoop_active:
-    - start_mode_selectmission
+    - stop_mode_csi_lanes
+    - stop_mode_skull
+#  s_scoop_active:
+#    - start_mode_selectmission
 
 slide_player:
   mode_base_started: base_slide

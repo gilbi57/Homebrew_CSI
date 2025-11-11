@@ -3,6 +3,9 @@
 config:
   - config_settings.yaml
   - config_hardware.yaml
+  - config_hardware_lights.yaml
+  - config_hardware_switches.yaml
+  - config_hardware_coils.yaml
                           
 game:
   balls_per_game: 3
@@ -16,7 +19,7 @@ player_vars:
     value_type: int
     initial_value: 0
 # Number of times making the ramp before activating Lock
-
+  
 modes:
   - attract
   - base

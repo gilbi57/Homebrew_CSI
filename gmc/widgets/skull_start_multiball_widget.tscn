@@ -1,0 +1,278 @@
+[gd_scene load_steps=14 format=3 uid="uid://88yxsdipshdy"]
+
+[ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_qot48"]
+[ext_resource type="Texture2D" uid="uid://dkor1f2t8vjwc" path="res://assets/images/skull-ball.png" id="2_7yclg"]
+[ext_resource type="Shader" uid="uid://cmv5xwlrljg2e" path="res://widgets/skull_start_multiball_widget.gdshader" id="2_qot48"]
+[ext_resource type="Texture2D" uid="uid://dfa37l0xjbygy" path="res://assets/images/skull2.png" id="2_r5mkd"]
+[ext_resource type="FontFile" uid="uid://c7s6mfr6nmkje" path="res://assets/fonts/mmsarica_csi.ttf" id="3_rnx5h"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7yclg"]
+resource_name = "material"
+shader = ExtResource("2_qot48")
+shader_parameter/pulse_strength = 1.0
+shader_parameter/progress = 1.0
+
+[sub_resource type="GDScript" id="GDScript_qot48"]
+script/source = "extends Sprite2D
+"
+
+[sub_resource type="Animation" id="Animation_7yclg"]
+resource_name = "Burning_Ball1_animation"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(2, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(370, 73.475), Vector2(550, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Ball1:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 0, 0, 1), Color(1, 0, 0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../Ball1:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(2, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(180, 73.475), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_qh442"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(180.02344, 73.4751)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Ball1:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../Ball1:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(370, 73.475)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_i303p"]
+_data = {
+&"Burning_Ball1_animation": SubResource("Animation_7yclg"),
+&"RESET": SubResource("Animation_qh442")
+}
+
+[sub_resource type="Animation" id="Animation_rnx5h"]
+resource_name = "Label_Animation"
+length = 10.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_font_sizes/font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 7, 9, 9.95),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [1, 1, 120, 120, 1]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2, 9.95, 10),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [false, true, true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:theme_override_constants/outline_size")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 8.5, 9, 9.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [10, 20, 10, 20]
+}
+
+[sub_resource type="Animation" id="Animation_5eo23"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:theme_override_font_sizes/font_size")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [120]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".:theme_override_constants/outline_size")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [10]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_qh442"]
+_data = {
+&"Label_Animation": SubResource("Animation_rnx5h"),
+&"RESET": SubResource("Animation_5eo23")
+}
+
+[node name="skull_start_multiball_widget" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qot48")
+metadata/_custom_type_script = "uid://d4ky3s4bg1ouq"
+
+[node name="BoxContainer" type="BoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -278.0
+offset_top = -136.5
+offset_right = 278.0
+offset_bottom = 136.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="BoxContainer"]
+material = SubResource("ShaderMaterial_7yclg")
+position = Vector2(269, 137.5)
+texture = ExtResource("2_r5mkd")
+script = SubResource("GDScript_qot48")
+
+[node name="Ball1" type="Sprite2D" parent="BoxContainer"]
+position = Vector2(370, 73.475)
+scale = Vector2(0.027, 0.027)
+texture = ExtResource("2_7yclg")
+
+[node name="Ball2" type="Sprite2D" parent="BoxContainer"]
+position = Vector2(180.02344, 73.4751)
+scale = Vector2(0.027, 0.027)
+texture = ExtResource("2_7yclg")
+flip_h = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BoxContainer/Ball2"]
+libraries = {
+&"": SubResource("AnimationLibrary_i303p")
+}
+autoplay = "Burning_Ball1_animation"
+
+[node name="Label2" type="Label" parent="BoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(1, 0.015686275, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_rnx5h")
+theme_override_font_sizes/font_size = 120
+text = "SKULL
+MULTIBALL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_Animation" type="AnimationPlayer" parent="BoxContainer/Label2"]
+libraries = {
+&"": SubResource("AnimationLibrary_qh442")
+}
+autoplay = "Label_Animation"

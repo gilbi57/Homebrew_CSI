@@ -1,32 +1,22 @@
 events:
-  game_ended: 53
-  game_started: 438
+  game_ended: 54
+  game_started: 525
 missing_switches:
-  s_drain: 5
-  s_launch_button: 85
-  s_left_flipper: 21
-  s_left_inlane1: 11
-  s_left_inlane2: 11
-  s_left_outlane: 53
-  s_popbumper1: 11
-  s_popbumper2: 10
-  s_popbumper3: 13
-  s_right_flipper: 21
-  s_right_inlane: 11
-  s_right_orbit: 12
-  s_right_outlane: 53
-  s_scoop: 12
-  s_sling_left: 438
-  s_sling_right: 438
-  s_start: 17
-  s_trough1: 5
-  s_trough2: 59
-  s_trough3: 216
-  s_trough4: 216
-  s_trough_jam: 152
+  s_launch_button: 172
+  s_left_flipper: 1
+  s_left_outlane: 140
+  s_popbumper2: 1
+  s_right_flipper: 1
+  s_right_outlane: 140
+  s_sling_left: 525
+  s_sling_right: 525
+  s_trough2: 86
+  s_trough3: 303
+  s_trough4: 303
+  s_trough_jam: 239
 player:
   score:
-    average: 219097
+    average: 215167
     top:
     - 10210000
     - 1550000
@@ -38,38 +28,40 @@ player:
     - 570000
     - 530000
     - 480000
-    total: 114
+    total: 118
 shots:
-  bumper1: 3793
-  bumper2: 3713
-  bumper3: 3606
-  c_shot: 157
+  bumper1: 4505
+  bumper2: 4408
+  bumper3: 4249
+  c_shot: 171
   csi_shot: 9
-  i_shot: 132
-  s_shot: 148
+  i_shot: 140
+  s_shot: 161
   switch_shot: 245
 switches:
-  s_drain: 526
+  s_drain: 544
   s_launch_button: 1
-  s_left_flipper: 370
-  s_left_inlane1: 167
-  s_left_inlane2: 155
+  s_left_flipper: 472
+  s_left_inlane1: 181
+  s_left_inlane2: 168
   s_left_outlane: 1
-  s_plunger_lane: 808
-  s_popbumper1: 3837
-  s_popbumper2: 3754
-  s_popbumper3: 3648
-  s_ramp: 218
-  s_right_flipper: 628
-  s_right_inlane: 138
-  s_right_orbit: 41
+  s_plunger_lane: 909
+  s_popbumper1: 4549
+  s_popbumper2: 4449
+  s_popbumper3: 4291
+  s_ramp: 1048
+  s_right_flipper: 749
+  s_right_inlane: 146
+  s_right_orbit: 52
   s_right_outlane: 5
-  s_scoop: 424
+  s_scoop: 435
+  s_skull_lock1: 72
+  s_skull_lock2: 81
   s_sling_left: 0
   s_sling_right: 0
-  s_start: 654
-  s_trough1: 372
-  s_trough2: 16
+  s_start: 680
+  s_trough1: 385
+  s_trough2: 18
   s_trough3: 1
   s_trough4: 1
   s_trough_jam: 8

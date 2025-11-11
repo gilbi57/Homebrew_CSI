@@ -7,14 +7,80 @@ mode:
 
 light_player:
   s_ramp_active{current_player.skull_ramp_nb==10}:
-    l_light_lock: on
+    l_skull_light_lock: on
+  seq_lock1_done:
+    l_skull_lock1: on
+  seq_lock2_done:
+    l_skull_lock2: on
+  seq_ready_for_multiball_done:
+    l_skull_light_lock: off
+    l_skull_lock1: off
+    l_skull_lock2: off
+
+sequences:
+  seq_lock1:
+    events:
+      - s_ramp_active{current_player.skull_ramp_nb==10}
+      - s_skull_lock1_active
+    events_when_complete: seq_lock1_done
+    disable_on_complete: false
+  seq_lock2:
+    events:
+      - seq_lock1_done
+      - s_skull_lock2_active
+    events_when_complete: seq_lock2_done
+    disable_on_complete: false
+  seq_ready_for_MB:
+    events:
+      - seq_lock2_done
+      - timer_pause_timer_complete
+    events_when_complete: seq_ready_for_multiball_done
+    disable_on_complete: false
+
+timers:
+  pause_timer:
+    end_value: 1
+    tick_interval: 10s
+    start_running: true
+    control_events:
+      - event: seq_lock2_done
+        action: restart
+      - action: add
+        event: both_flippers_one
+        value: 10
 
 variable_player:
   mode_skull_started:
     skull_ramp_nb:
       int: 0
       action: set
+  seq_ready_for_multiball_done:
+    skull_ramp_nb:
+      int: 0
+      action: set
   s_ramp_active:
     skull_ramp_nb: 1
 
-  
+
+widget_player:
+  seq_ready_for_multiball_done:
+    skull_start_multiball_widget
+  s_ramp_active{current_player.skull_ramp_nb==10}:
+    skull_light_lock_widget
+  seq_lock1_done:
+    skull_lock1_widget
+  seq_lock2_done:
+    skull_lock2_widget
+
+#  coil_player:
+#  some_event: coil_1
+#  some_other_event:
+#    coil_2:
+#      action: enable
+#      hold_power: .5
+#  s_ramp_active{current_player.skull_ramp_nb==10}:
+#     Le skull est en position basse
+#     Activer le moteur du skull pour le monter jusqu'a Swith milieu
+#   seq_lock2_done:
+#     Le skull est en position milieu - position lock
+#     Monter pour liberer les balles

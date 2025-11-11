@@ -1,7 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0brvjonuguun"]
+[gd_scene load_steps=5 format=3 uid="uid://c0brvjonuguun"]
 
 [ext_resource type="Script" uid="uid://d4ky3s4bg1ouq" path="res://addons/mpf-gmc/classes/mpf_widget.gd" id="1_621bk"]
-[ext_resource type="Texture2D" uid="uid://cf1iwtisrv7k4" path="res://assets/images/photoshoot2.png" id="2_gvfwc"]
+[ext_resource type="Texture2D" uid="uid://u3ufusp6k7ea" path="res://assets/images/photoshoot.png" id="2_gvfwc"]
+[ext_resource type="Shader" uid="uid://cyqyprrsx6ik7" path="res://widgets/bumper_widget.gdshader" id="2_hhdcw"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_621bk"]
+shader = ExtResource("2_hhdcw")
+shader_parameter/hit_effect = 0.502000023845
+shader_parameter/shake_intensity = 5.0
+shader_parameter/flash_speed = 19.07
+shader_parameter/flash_color = Color(1, 1, 1, 1)
 
 [node name="bumper_widget" type="Control"]
 layout_mode = 3
@@ -22,6 +30,8 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
+alignment = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="BoxContainer"]
+material = SubResource("ShaderMaterial_621bk")
 texture = ExtResource("2_gvfwc")

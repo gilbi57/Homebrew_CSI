@@ -20,7 +20,7 @@ shot_groups:
 timers:
   bumper_timer:
     end_value: 1
-    tick_interval: 0.2s
+    tick_interval: 0.5s
     start_running: true
     control_events:
       - event: bumpers_hit
@@ -36,4 +36,9 @@ widget_player:
 variable_player:
   bumpers_hit: 
     score: 3_000
+
+sound_player:
+  bumpers_hit:
+    bumper_sound:
+      bus: effects
 

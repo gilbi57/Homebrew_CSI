@@ -79,6 +79,9 @@ switches:
   s_skull_lock2:
     number:
 
+  s_morgue:
+    number:
+
 
 virtual_platform_start_active_switches:
   - s_trough1

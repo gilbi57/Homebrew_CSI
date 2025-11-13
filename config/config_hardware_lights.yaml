@@ -1,6 +1,9 @@
 #config_version=6
 
 lights:
+  l_skillshot:
+    number:
+    
 # Bottom lanes
 # CSI Lanes
   l_lane_c:

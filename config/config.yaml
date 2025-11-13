@@ -18,11 +18,23 @@ player_vars:
   skull_ramp_nb:
     value_type: int
     initial_value: 0
+  skillshot:
+    value_type: int
+    initial_value: 0
+  skillshot_count:
+    value_type: int
+    initial_value: 0
+  tmp_int:
+    value_type: int
+    initial_value: 0
+
+
 # Number of times making the ramp before activating Lock
   
 modes:
   - attract
   - base
+  - skillshot
   - bumpers
   - selectmission
   - skull

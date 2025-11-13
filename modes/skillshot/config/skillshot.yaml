@@ -1,0 +1,95 @@
+#config_version=6
+
+# Skillshot done when launching the ball directly to the Morgue
+# with no other switch before
+
+mode:
+  start_events: ball_started
+  stop_events: skillshoot_ended
+  priority: 200
+
+shots:
+  s1: 
+    switch: s_left_flipper
+  s2: 
+    switch: s_right_flipper
+  s3: 
+    switch: s_sling_left
+  s4: 
+    switch: s_sling_right
+  s5: 
+    switch: s_popbumper1
+  s6: 
+    switch: s_popbumper2
+  s7: 
+    switch: s_popbumper3
+  s8: 
+    switch: s_scoop
+  s9: 
+    switch: s_ramp
+  s10: 
+    switch: s_right_inlane
+  s11: 
+    switch: s_right_outlane
+  s12: 
+    switch: s_left_inlane1
+  s13: 
+    switch: s_left_inlane2
+  s14: 
+    switch: s_left_outlane
+
+# TO ADD, when available
+# Bullet targets
+# left spinner
+# left orbit
+# centrifuge enter
+# right spinner
+# microscope left and right
+
+shot_groups:
+  not_skillshot: 
+    shots: s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14
+
+sequences:
+  seq_skillshot_success:
+    events:
+      - s_plunger_lane_inactive
+      - s_right_orbit_active
+      - s_morgue_active
+    events_when_complete: seq_skillshot_success_done
+    disable_on_complete: false
+
+widget_player:
+  seq_skillshot_success_done: 
+    skillshot_widget:
+      expire: 2s
+  not_skillshot_hit:
+    skillshot_widget:
+      expire: 2s
+
+variable_player:
+  seq_skillshot_success_done: 
+    skillshot:
+      int: 1
+      action: set
+    tmp_int:
+      int: 500_000 + (100_000 * current_player.skillshot_count)
+      action: set
+    score: current_player.tmp_int
+    skillshot_count: 1
+  not_skillshot_hit:
+    skillshot:
+      int: 0
+      action: set
+  
+light_player:
+  mode_skillshot_started:
+    l_skillshot: on
+  not_skillshot_hit:
+    l_skillshot: off
+  seq_skillshot_success_done:
+    l_skillshot: off
+
+event_player:
+    widget_skillshot_widget_removed: skillshoot_ended
+

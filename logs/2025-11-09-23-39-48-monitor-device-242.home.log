@@ -57,3 +57,29 @@
 2025-11-10 22:24:34,731 : INFO : BCP Client : Connected to MPF
 2025-11-10 22:26:15,731 : INFO : BCP Client : Connected to MPF
 2025-11-10 22:38:46,731 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:22:25,957 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:26:12,954 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:29:46,952 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:34:14,949 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:35:51,948 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:37:24,948 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:40:24,944 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:46:37,995 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:52:55,996 : INFO : BCP Client : Connected to MPF
+2025-11-11 23:54:26,996 : INFO : BCP Client : Connected to MPF
+2025-11-13 22:50:51,032 : INFO : BCP Client : Connected to MPF
+2025-11-13 22:55:29,951 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:00:43,946 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:02:22,945 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:03:33,943 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:05:22,941 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:10:49,937 : INFO : BCP Client : Connected to MPF
+2025-11-13 23:15:15,013 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,023 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,028 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,030 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,041 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,041 : INFO : Core : Quitting due to quit on close
+2025-11-13 23:15:15,061 : INFO : root : MPF Monitor run loop ended.
+2025-11-13 23:15:15,061 : INFO : root : Stopping child threads... (2 remaining)
+2025-11-13 23:15:15,969 : INFO : root : All child threads stopped.

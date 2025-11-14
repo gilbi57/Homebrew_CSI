@@ -1,29 +1,34 @@
 events:
   game_ended: 54
-  game_started: 550
+  game_started: 554
 missing_switches:
-  s_launch_button: 197
-  s_left_flipper: 16
-  s_left_inlane1: 13
-  s_left_inlane2: 25
-  s_left_outlane: 165
-  s_popbumper1: 5
-  s_popbumper2: 4
-  s_popbumper3: 7
-  s_ramp: 25
-  s_right_flipper: 14
-  s_right_inlane: 14
-  s_right_outlane: 165
-  s_scoop: 6
-  s_skull_lock1: 8
-  s_skull_lock2: 8
-  s_sling_left: 550
-  s_sling_right: 550
-  s_start: 8
-  s_trough2: 111
-  s_trough3: 328
-  s_trough4: 328
-  s_trough_jam: 264
+  s_drain: 4
+  s_launch_button: 201
+  s_left_flipper: 20
+  s_left_inlane1: 17
+  s_left_inlane2: 29
+  s_left_orbit: 1
+  s_left_outlane: 169
+  s_microscope_left: 1
+  s_microscope_right: 1
+  s_morgue: 4
+  s_popbumper1: 1
+  s_popbumper2: 8
+  s_popbumper3: 11
+  s_right_flipper: 18
+  s_right_inlane: 18
+  s_right_orbit: 4
+  s_right_outlane: 169
+  s_right_spinner: 1
+  s_scoop: 10
+  s_sling_left: 554
+  s_sling_right: 554
+  s_start: 1
+  s_trough1: 4
+  s_trough2: 115
+  s_trough3: 332
+  s_trough4: 332
+  s_trough_jam: 268
 player:
   score:
     average: 215167
@@ -40,7 +45,7 @@ player:
     - 480000
     total: 118
 shots:
-  bumper1: 4520
+  bumper1: 4521
   bumper2: 4420
   bumper3: 4261
   c_shot: 176
@@ -54,31 +59,37 @@ shots:
   s6: 10
   s7: 20
   s8: 7
+  s9: 20
   s_shot: 161
   switch_shot: 245
 switches:
+  s_centriguge_enter: 11
   s_drain: 558
   s_launch_button: 1
   s_left_flipper: 478
   s_left_inlane1: 186
   s_left_inlane2: 168
+  s_left_orbit: 1
   s_left_outlane: 1
+  s_microscope_left: 1
+  s_microscope_right: 1
   s_morgue: 70
-  s_plunger_lane: 1005
-  s_popbumper1: 4564
+  s_plunger_lane: 1008
+  s_popbumper1: 4565
   s_popbumper2: 4461
   s_popbumper3: 4303
-  s_ramp: 1048
+  s_ramp: 1068
   s_right_flipper: 787
   s_right_inlane: 154
   s_right_orbit: 118
   s_right_outlane: 5
+  s_right_spinner: 1
   s_scoop: 447
-  s_skull_lock1: 75
-  s_skull_lock2: 82
+  s_skull_lock1: 77
+  s_skull_lock2: 84
   s_sling_left: 0
   s_sling_right: 0
-  s_start: 682
+  s_start: 683
   s_trough1: 393
   s_trough2: 18
   s_trough3: 1

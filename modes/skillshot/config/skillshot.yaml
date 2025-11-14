@@ -37,7 +37,6 @@ shots:
     switch: s_left_inlane2
   s14: 
     switch: s_left_outlane
-
 # TO ADD, when available
 # Bullet targets
 # left spinner

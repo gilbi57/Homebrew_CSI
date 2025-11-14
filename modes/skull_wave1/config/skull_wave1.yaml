@@ -1,0 +1,61 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_skull_wave1
+  stop_events: stop_mode_skull_wave1
+  priority: 200
+
+
+shot_profiles:
+  arrow_shot_profile:
+    states:
+      - name: lit
+        show: on
+      - name: unlit
+        show: off
+  #  loop: true
+
+shots:
+  s1:
+    switch: s_left_orbit
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_left_orbit_arrow
+  s2:
+    switch: s_centriguge_enter
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_centriguge_arrow
+  s3:
+    switch: s_ramp
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_ramp_arrow
+  s4:
+    switch: s_microscope_left
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_microscope_left_arrow
+  s5:
+    switch: s_microscope_right
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_microscope_right_arrow
+  s6:
+    switch: s_right_spinner
+    profile: arrow_shot_profile
+    show_tokens:
+      light: l_right_spinner_arrow
+
+shot_groups:
+  arrow_shots: 
+    shots: s1, s2, s3, s4, s5, s6
+    enable_events: mode_skull_wave1_started
+
+variable_player:
+  arrow_shots_lit_hit:
+    score: 250_000
+    
+event_player:
+  arrow_shots_unlit_complete: stop_mode_skull_wave1
+  # less than 2 balls -> END

@@ -3,7 +3,7 @@
 lights:
   l_skillshot:
     number:
-    
+
 # Bottom lanes
 # CSI Lanes
   l_lane_c:
@@ -26,18 +26,17 @@ lights:
     number:
   l_skull_lock2:
     number:
-
-# Evidences Arrows lights
-  l_evdence_arrow_1:
-    number:
-  l_evdence_arrow_2:
-    number:
-  l_evdence_arrow_3:
-    number:
-  l_evdence_arrow_4:
-    number:
-  l_evdence_arrow_5:
-    number:
-  l_evdence_arrow_6:
-    number:
     
+  # Arrows
+  l_left_orbit_arrow:
+    number:
+  l_centriguge_arrow:
+    number:
+  l_ramp_arrow:
+    number:
+  l_microscope_left_arrow:
+    number:
+  l_microscope_right_arrow:
+    number:
+  l_right_spinner_arrow:
+    number:

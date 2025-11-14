@@ -82,6 +82,20 @@ switches:
   s_morgue:
     number:
 
+  s_left_orbit:
+    number:
+
+  s_centriguge_enter:
+    number:
+
+  s_microscope_left:
+    number:
+  s_microscope_right:
+    number:
+
+  s_right_spinner:
+    number:
+
 
 virtual_platform_start_active_switches:
   - s_trough1

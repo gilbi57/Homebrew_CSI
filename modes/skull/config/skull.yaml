@@ -36,6 +36,12 @@ sequences:
       - timer_pause_timer_complete
     events_when_complete: seq_ready_for_multiball_done
     disable_on_complete: false
+  seq_ready_for_wave1:
+    events:
+      - seq_ready_for_multiball_done
+      - timer_pause_timer_complete
+    events_when_complete: seq_ready_for_wave1_done
+    disable_on_complete: false
 
 timers:
   pause_timer:
@@ -44,6 +50,8 @@ timers:
     start_running: true
     control_events:
       - event: seq_lock2_done
+        action: restart
+      - event: seq_ready_for_multiball_done
         action: restart
       - action: add
         event: both_flippers_one
@@ -71,6 +79,10 @@ widget_player:
     skull_lock1_widget
   seq_lock2_done:
     skull_lock2_widget
+
+event_player:
+  seq_ready_for_wave1_done: start_mode_skull_wave1
+
 
 #  coil_player:
 #  some_event: coil_1

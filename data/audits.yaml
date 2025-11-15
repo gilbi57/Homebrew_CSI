@@ -1,33 +1,30 @@
 events:
   game_ended: 54
-  game_started: 572
+  game_started: 576
 missing_switches:
-  s_bullet2: 1
-  s_bullet3: 1
-  s_bullet4: 1
-  s_bullet5: 1
-  s_drain: 1
-  s_launch_button: 219
-  s_left_flipper: 38
-  s_left_inlane1: 35
-  s_left_inlane2: 47
-  s_left_outlane: 187
-  s_morgue: 22
-  s_popbumper1: 19
-  s_popbumper2: 26
-  s_popbumper3: 29
-  s_right_flipper: 36
-  s_right_inlane: 36
-  s_right_orbit: 22
-  s_right_outlane: 187
-  s_sling_left: 572
-  s_sling_right: 572
-  s_start: 12
-  s_trough1: 1
-  s_trough2: 133
-  s_trough3: 350
-  s_trough4: 350
-  s_trough_jam: 286
+  s_launch_button: 223
+  s_left_flipper: 42
+  s_left_inlane1: 2
+  s_left_inlane2: 2
+  s_left_outlane: 191
+  s_morgue: 1
+  s_popbumper1: 3
+  s_popbumper2: 30
+  s_popbumper3: 33
+  s_right_flipper: 40
+  s_right_inlane: 2
+  s_right_orbit: 1
+  s_right_outlane: 191
+  s_skull_pos_down: 4
+  s_skull_pos_mid: 4
+  s_skull_pos_up: 4
+  s_sling_left: 576
+  s_sling_right: 576
+  s_start: 16
+  s_trough2: 137
+  s_trough3: 354
+  s_trough4: 354
+  s_trough_jam: 290
 player:
   score:
     average: 215167
@@ -44,68 +41,73 @@ player:
     - 480000
     total: 118
 shots:
-  bumper1: 4521
+  bumper1: 4522
   bumper2: 4420
   bumper3: 4261
-  c_shot: 176
+  c_shot: 179
   csi_shot: 9
-  i_shot: 148
-  s10: 9
+  i_shot: 151
+  s10: 10
   s11: 8
-  s13: 2
+  s12: 2
+  s13: 3
   s2: 33
   s5: 13
   s6: 10
   s7: 20
-  s8: 8
-  s9: 195
-  s_shot: 161
-  sa1: 8
-  sa2: 7
-  sa3: 7
-  sa4: 7
-  sa5: 7
-  sa6: 9
-  sb1: 2
-  sb3: 1
-  sb4: 1
-  sb5: 1
-  sb6: 3
+  s8: 9
+  s9: 236
+  s_shot: 164
+  sa1: 12
+  sa2: 11
+  sa3: 11
+  sa4: 11
+  sa5: 11
+  sa6: 13
+  sb1: 6
+  sb2: 4
+  sb3: 5
+  sb4: 5
+  sb5: 5
+  sb6: 7
   switch_shot: 245
 switches:
-  s_bullet1: 4
-  s_bullet2: 1
-  s_bullet3: 2
-  s_bullet4: 1
-  s_bullet5: 2
-  s_centriguge_enter: 21
-  s_drain: 559
+  s_bullet1: 9
+  s_bullet2: 5
+  s_bullet3: 6
+  s_bullet4: 5
+  s_bullet5: 6
+  s_centriguge_enter: 25
+  s_drain: 562
   s_launch_button: 1
   s_left_flipper: 478
-  s_left_inlane1: 186
-  s_left_inlane2: 168
-  s_left_orbit: 13
+  s_left_inlane1: 189
+  s_left_inlane2: 171
+  s_left_orbit: 17
   s_left_outlane: 1
-  s_microscope_left: 12
-  s_microscope_right: 11
-  s_morgue: 70
-  s_plunger_lane: 1027
-  s_popbumper1: 4565
+  s_microscope_left: 16
+  s_microscope_right: 15
+  s_morgue: 71
+  s_plunger_lane: 1035
+  s_popbumper1: 4566
   s_popbumper2: 4461
   s_popbumper3: 4303
-  s_ramp: 1265
+  s_ramp: 1340
   s_right_flipper: 787
-  s_right_inlane: 154
-  s_right_orbit: 118
+  s_right_inlane: 157
+  s_right_orbit: 121
   s_right_outlane: 5
-  s_right_spinner: 12
-  s_scoop: 452
-  s_skull_lock1: 96
-  s_skull_lock2: 102
+  s_right_spinner: 16
+  s_scoop: 458
+  s_skull_lock1: 102
+  s_skull_lock2: 108
+  s_skull_pos_down: 0
+  s_skull_pos_mid: 0
+  s_skull_pos_up: 0
   s_sling_left: 0
   s_sling_right: 0
   s_start: 685
-  s_trough1: 394
+  s_trough1: 397
   s_trough2: 18
   s_trough3: 1
   s_trough4: 1

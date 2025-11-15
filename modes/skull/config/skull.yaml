@@ -80,6 +80,11 @@ widget_player:
     skull_lock2_widget
 
 event_player:
-  seq_ready_for_wave1_done: start_mode_skull_wave1
-  mode_skull_wave1_stopped: start_mode_skull_wave2
+  s_ramp_active{current_player.skull_ramp_nb==10}: go_position1
+  seq_ready_for_wave1_done: 
+    - go_position2
+    - start_mode_skull_wave1
+  mode_skull_wave1_stopped: 
+    - stop_skull_motor
+    - start_mode_skull_wave2
 

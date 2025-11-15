@@ -74,10 +74,7 @@ switches:
 
   s_ramp:
     number:
-  s_skull_lock1:
-    number:
-  s_skull_lock2:
-    number:
+  
 
   s_morgue:
     number:
@@ -96,6 +93,7 @@ switches:
   s_right_spinner:
     number:
 
+  # Bullets
   s_bullet1:
     number:
   s_bullet2:
@@ -106,6 +104,19 @@ switches:
     number:
   s_bullet5:
     number:
+
+  # Skull
+  s_skull_pos_up:
+    number:
+  s_skull_pos_mid:
+    number:
+  s_skull_pos_down:
+    number:
+  s_skull_lock1:
+    number:
+  s_skull_lock2:
+    number:
+
 
 virtual_platform_start_active_switches:
   - s_trough1

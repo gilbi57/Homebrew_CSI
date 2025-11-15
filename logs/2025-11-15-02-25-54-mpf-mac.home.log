@@ -687,3 +687,55 @@
 2025-11-15 02:27:08,670 : INFO : EventManager : Event: ======'sb6_bullet_shot_profile_lit_hit'====== Args={'profile': 'bullet_shot_profile', 'state': 'lit', 'advancing': True}
 2025-11-15 02:27:08,670 : INFO : EventManager : Event: ======'sb6_lit_hit'====== Args={'profile': 'bullet_shot_profile', 'state': 'lit', 'advancing': True}
 2025-11-15 02:27:08,767 : INFO : SwitchController : <<<<<<< 's_scoop' inactive >>>>>>>
+2025-11-15 10:07:13,790 : INFO : Machine : Shutting down...
+2025-11-15 10:07:13,790 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-11-15 10:07:13,793 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-11-15 10:07:13,793 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_skull_wave2_will_stop'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_skull_wave2_stopping'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_csi_lanes_will_stop'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_csi_lanes_stopping'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_skull_will_stop'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_skull_stopping'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_bumpers_will_stop'====== Args={}
+2025-11-15 10:07:13,795 : INFO : EventManager : Event: ======'mode_bumpers_stopping'====== Args={}
+2025-11-15 10:07:13,796 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2025-11-15 10:07:13,796 : INFO : EventManager : Event: ======'stop_mode_csi_lanes'====== Args={'priority': 0}
+2025-11-15 10:07:13,796 : INFO : EventManager : Event: ======'stop_mode_skull'====== Args={'priority': 0}
+2025-11-15 10:07:13,796 : INFO : Mode.bumpers : Stopped.
+2025-11-15 10:07:13,797 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,797 : INFO : EventManager : Event: ======'mode_bumpers_stopped'====== Args={}
+2025-11-15 10:07:13,797 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bumpers'}
+2025-11-15 10:07:13,797 : INFO : Timer.bumper_timer : Stopping Timer
+2025-11-15 10:07:13,797 : INFO : EventManager : Event: ======'timer_bumper_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-15 10:07:13,798 : INFO : Mode.skull : Stopped.
+2025-11-15 10:07:13,798 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,799 : INFO : EventManager : Event: ======'mode_skull_stopped'====== Args={}
+2025-11-15 10:07:13,799 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'skull'}
+2025-11-15 10:07:13,799 : INFO : Timer.pause_timer : Stopping Timer
+2025-11-15 10:07:13,799 : INFO : EventManager : Event: ======'timer_pause_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-15 10:07:13,799 : INFO : Mode.csi_lanes : Stopped.
+2025-11-15 10:07:13,799 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,800 : INFO : EventManager : Event: ======'mode_csi_lanes_stopped'====== Args={}
+2025-11-15 10:07:13,800 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'csi_lanes'}
+2025-11-15 10:07:13,800 : INFO : Timer.csi_lanes_timer : Stopping Timer
+2025-11-15 10:07:13,800 : INFO : EventManager : Event: ======'timer_csi_lanes_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-15 10:07:13,800 : INFO : Timer.csi_right_orbit_timer : Stopping Timer
+2025-11-15 10:07:13,800 : INFO : EventManager : Event: ======'timer_csi_right_orbit_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 0}
+2025-11-15 10:07:13,801 : INFO : Mode.base : Stopped.
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-11-15 10:07:13,801 : INFO : Timer.player_added_timer : Stopping Timer
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'timer_player_added_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2025-11-15 10:07:13,801 : INFO : Mode.skull_wave2 : Stopped.
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'mode_skull_wave2_stopped'====== Args={}
+2025-11-15 10:07:13,801 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'skull_wave2'}
+2025-11-15 10:07:13,803 : INFO : Mode.game : Stopped.
+2025-11-15 10:07:13,803 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-11-15 10:07:13,803 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-11-15 10:07:13,803 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-11-15 10:07:13,806 : INFO : root : MPF run loop ended.

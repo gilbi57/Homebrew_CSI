@@ -49,11 +49,7 @@ shots:
 shot_groups:
   arrow_shots: 
     shots: sa1, sa2, sa3, sa4, sa5, sa6
-    enable_events: mode_skull_wave1_started
-
-#light_player:
-#  mode_skull_waveone_started:
-#    sa1: on 
+    restart_events: mode_skull_wave1_started
 
 variable_player:
   arrow_shots_lit_hit:

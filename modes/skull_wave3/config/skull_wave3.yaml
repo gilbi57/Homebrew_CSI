@@ -1,0 +1,8 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_skull_wave3
+  stop_events: stop_mode_skull_wave3
+  priority: 200
+
+ 

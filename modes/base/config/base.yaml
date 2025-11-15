@@ -13,10 +13,12 @@ event_player:
     - start_mode_bumpers
     - start_mode_csi_lanes
     - start_mode_skull
+    - stop_skull_motor
   mode_base_will_stop:
     - stop_mode_bumpers
     - stop_mode_csi_lanes
     - stop_mode_skull
+    - stop_skull_motor
 #  s_scoop_active:
 #    - start_mode_selectmission
 

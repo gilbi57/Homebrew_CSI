@@ -6,6 +6,7 @@ config:
   - config_hardware_lights.yaml
   - config_hardware_switches.yaml
   - config_hardware_coils.yaml
+  - config_hardware_motors.yaml
                           
 game:
   balls_per_game: 3

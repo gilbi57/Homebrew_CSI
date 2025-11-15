@@ -49,7 +49,7 @@ shots:
 shot_groups:
   bullet_shots: 
     shots: sa1, sa2, sa3, sa4, sa5, sa6
-    enable_events: mode_skull_wave2_started
+    restart_events: mode_skull_wave2_started
 
 
 variable_player:

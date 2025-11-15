@@ -100,3 +100,4 @@ flippers:
     main_coil: c_flipper_lefttop_main
     activation_switch: s_left_flipper
     enable_events: machine_reset_phase_3
+

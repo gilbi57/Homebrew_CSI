@@ -40,3 +40,17 @@ lights:
     number:
   l_right_spinner_arrow:
     number:
+
+  # Bullets
+  l_bullet1:
+    number:
+  l_bullet2:
+    number:
+  l_bullet3:
+    number:
+  l_bullet4:
+    number:
+  l_bullet5:
+    number:
+  l_bullet6:
+    number:

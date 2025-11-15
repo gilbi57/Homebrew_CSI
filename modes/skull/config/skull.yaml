@@ -69,7 +69,6 @@ variable_player:
   s_ramp_active:
     skull_ramp_nb: 1
 
-
 widget_player:
   seq_ready_for_multiball_done:
     skull_start_multiball_widget
@@ -82,17 +81,5 @@ widget_player:
 
 event_player:
   seq_ready_for_wave1_done: start_mode_skull_wave1
+  mode_skull_wave1_stopped: start_mode_skull_wave2
 
-
-#  coil_player:
-#  some_event: coil_1
-#  some_other_event:
-#    coil_2:
-#      action: enable
-#      hold_power: .5
-#  s_ramp_active{current_player.skull_ramp_nb==10}:
-#     Le skull est en position basse
-#     Activer le moteur du skull pour le monter jusqu'a Swith milieu
-#   seq_lock2_done:
-#     Le skull est en position milieu - position lock
-#     Monter pour liberer les balles

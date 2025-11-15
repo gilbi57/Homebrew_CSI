@@ -1,0 +1,62 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_skull_wave2
+  stop_events: stop_mode_skull_wave2
+  priority: 200
+
+shot_profiles:
+  bullet_shot_profile:
+    states:
+      - name: lit
+        show: on
+      - name: unlit
+        show: off
+  #  loop: true
+
+shots:
+  sb1:
+    switch: s_bullet1
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet1
+  sb2:
+    switch: s_bullet2
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet2
+  sb3:
+    switch: s_bullet3
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet3
+  sb4:
+    switch: s_bullet4
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet4
+  sb5:
+    switch: s_bullet5
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet5
+  sb6:
+    switch: s_scoop
+    profile: bullet_shot_profile
+    show_tokens:
+      light: l_bullet6
+
+shot_groups:
+  bullet_shots: 
+    shots: sa1, sa2, sa3, sa4, sa5, sa6
+    enable_events: mode_skull_wave2_started
+
+
+variable_player:
+  bullet_shots_lit_hit:
+    score: 500_000
+    
+event_player:
+  bullet_shots_unlit_complete: stop_mode_skull_wave2
+
+  # less than 2 balls -> END

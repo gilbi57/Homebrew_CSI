@@ -35,5 +35,7 @@ modes:
   - bumpers
   - selectmission
   - skull
+  - skull_wave1
+  - skull_wave2
   - csi_lanes
   

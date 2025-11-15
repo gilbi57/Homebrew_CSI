@@ -96,6 +96,16 @@ switches:
   s_right_spinner:
     number:
 
+  s_bullet1:
+    number:
+  s_bullet2:
+    number:
+  s_bullet3:
+    number:
+  s_bullet4:
+    number:
+  s_bullet5:
+    number:
 
 virtual_platform_start_active_switches:
   - s_trough1

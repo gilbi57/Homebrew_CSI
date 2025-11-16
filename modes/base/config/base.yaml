@@ -22,6 +22,10 @@ event_player:
 #  s_scoop_active:
 #    - start_mode_selectmission
 
+light_player:
+  mode_skull_wave4_stopped:
+    l_mode_skull: on
+
 slide_player:
   mode_base_started: base_slide
 
@@ -39,3 +43,9 @@ timers:
     control_events:
       - event: player_added
         action: restart
+
+variable_player:
+  playfield_ball_count_change:  
+    bip:
+      int: balls
+      action: set

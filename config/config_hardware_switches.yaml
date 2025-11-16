@@ -1,6 +1,8 @@
 #config_version=6
 
 switches:
+
+# Flippers
   s_left_flipper:
     number: 0-0-8
     tags: left_flipper
@@ -15,7 +17,7 @@ switches:
     number: 0-0-11
 
   s_start:
-    number: 0-0-3
+    number: 0-0-1
     tags: start
 
   s_drain:
@@ -55,6 +57,7 @@ switches:
 
   s_right_orbit:
     number: 4-0-8
+    tags: playfield_active
 
   s_right_inlane:
     number: 5-0-7
@@ -74,6 +77,7 @@ switches:
 
   s_ramp:
     number:
+    tags: playfield_active
   
 
   s_morgue:
@@ -81,29 +85,39 @@ switches:
 
   s_left_orbit:
     number:
+    tags: playfield_active
 
   s_centriguge_enter:
     number:
+    tags: playfield_active
 
   s_microscope_left:
     number:
+    tags: playfield_active
   s_microscope_right:
     number:
+    tags: playfield_active
 
   s_right_spinner:
     number:
+    tags: playfield_active
 
   # Bullets
   s_bullet1:
     number:
+    tags: playfield_active
   s_bullet2:
     number:
+    tags: playfield_active
   s_bullet3:
     number:
+    tags: playfield_active
   s_bullet4:
     number:
+    tags: playfield_active
   s_bullet5:
     number:
+    tags: playfield_active
 
   # Skull
   s_skull_pos_up:
@@ -117,11 +131,8 @@ switches:
   s_skull_lock2:
     number:
 
-
 virtual_platform_start_active_switches:
   - s_trough1
   - s_trough2
   - s_trough3
   - s_trough4
-#!  - s_trough5
-#!  - s_trough6

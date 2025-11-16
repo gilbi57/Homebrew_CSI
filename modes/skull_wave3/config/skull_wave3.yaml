@@ -1,8 +1,42 @@
 #config_version=6
 
+# Wave 3 Multiball Skull
+# Shoot to the skull once, 
+# then a second time within a 5 seconds countdown
+# Release balls at the end of the Wave
+
 mode:
   start_events: start_mode_skull_wave3
   stop_events: stop_mode_skull_wave3
   priority: 200
 
- 
+light_player:
+  mode_skull_wave3_started:
+    l_skull_light_lock: on
+  s_skull_lock1_active:
+    l_skull_lock1: on
+  s_skull_lock2_active:
+    l_skull_lock2: on
+  stop_mode_skull_wave3:
+    l_skull_lock1: off
+    l_skull_lock2: off
+    l_skull_light_lock: off
+
+timers:
+  skull_wave3_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    control_events:
+      - event: s_skull_lock1_active
+        action: restart
+
+variable_player:
+  s_skull_lock1_active:
+    score: 750_000
+  s_skull_lock2_active:
+    score: 750_000
+
+event_player:
+  timer_skull_wave3_timer_complete: stop_mode_skull_wave3
+  stop_mode_skull_wave3: go_position2

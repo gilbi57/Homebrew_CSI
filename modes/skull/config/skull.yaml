@@ -1,12 +1,16 @@
 #config_version=6
 
+# Mode SKULL
+# x ramps, then lock 2 balls : Multiball starts (3 balls)
+# Multiball in 4 waves looping up until only 1 ball on the playfield
+
 mode:
   start_events: start_mode_skull
   stop_events: stop_mode_skull
   priority: 200
 
 light_player:
-  s_ramp_active{current_player.skull_ramp_nb==10}:
+  ready_for_start_locking:
     l_skull_light_lock: on
   seq_lock1_done:
     l_skull_lock1: on
@@ -20,7 +24,7 @@ light_player:
 sequences:
   seq_lock1:
     events:
-      - s_ramp_active{current_player.skull_ramp_nb==10}
+      - ready_for_start_locking
       - s_skull_lock1_active
     events_when_complete: seq_lock1_done
     disable_on_complete: false
@@ -42,16 +46,18 @@ sequences:
       - timer_pause_timer_complete
     events_when_complete: seq_ready_for_wave1_done
     disable_on_complete: false
-
+ 
 timers:
   pause_timer:
     end_value: 1
-    tick_interval: 10s
+    tick_interval: 5s
     start_running: true
     control_events:
       - event: seq_lock2_done
         action: restart
       - event: seq_ready_for_multiball_done
+        action: restart
+      - event: mode_skull_wave4_stopped
         action: restart
       - action: add
         event: both_flippers_one
@@ -70,21 +76,32 @@ variable_player:
     skull_ramp_nb: 1
 
 widget_player:
-  seq_ready_for_multiball_done:
-    skull_start_multiball_widget
-  s_ramp_active{current_player.skull_ramp_nb==10}:
-    skull_light_lock_widget
-  seq_lock1_done:
-    skull_lock1_widget
-  seq_lock2_done:
-    skull_lock2_widget
+  seq_ready_for_multiball_done: skull_start_multiball_widget
+  ready_for_start_locking: skull_light_lock_widget
+  seq_lock1_done: skull_lock1_widget
+  seq_lock2_done: skull_lock2_widget
 
 event_player:
-  s_ramp_active{current_player.skull_ramp_nb==10}: go_position1
+  s_ramp_active{current_player.skull_ramp_nb==10}:
+    - go_position1
+    - ready_for_start_locking
   seq_ready_for_wave1_done: 
     - go_position2
     - start_mode_skull_wave1
   mode_skull_wave1_stopped: 
-    - stop_skull_motor
+    - go_position2
     - start_mode_skull_wave2
+  mode_skull_wave2_stopped: 
+    - go_position1
+    - start_mode_skull_wave3
+  mode_skull_wave3_stopped: 
+    - stop_skull_motor
+    - start_mode_skull_wave4
+  mode_skull_wave4_stopped:
+    - go_position2
+    - start_mode_skull_wave1
+  s_drain{balls<2}:
+    - stop_skull_motor
+    - stop_mode_skull
+  
 

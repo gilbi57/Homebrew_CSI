@@ -458,3 +458,24 @@ variable_name = "multiplier"
 min_digits = 1
 template_string = "x %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="BallInPlay" type="Label" parent="."]
+z_index = 1
+layout_mode = 0
+offset_left = 1850.0
+offset_top = 323.0
+offset_right = 1918.0
+offset_bottom = 369.0
+theme_override_colors/font_color = Color(1, 0.46666667, 0.17254902, 1)
+theme_override_colors/font_shadow_color = Color(0.9607843, 0.9607843, 0, 0.78039217)
+theme_override_colors/font_outline_color = Color(1, 1, 0, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("3_bf8jl")
+theme_override_font_sizes/font_size = 40
+text = "1"
+script = ExtResource("2_3761s")
+variable_name = "bip"
+min_digits = 1
+template_string = "%s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

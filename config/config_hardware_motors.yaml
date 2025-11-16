@@ -1,17 +1,13 @@
 #config_version=6
 
 digital_outputs:
-  c_motorized_skull_up:
-    number:
-    type: driver
-  c_motorized_skull_down:
+  c_motorized_skull:
     number:
     type: driver
 
 motors:
   skull_motor:
-    motor_left_output: c_motorized_skull_up
-    motor_right_output: c_motorized_skull_down
+    motor_left_output: c_motorized_skull
     position_switches: !!omap
       - home: s_skull_pos_down
       - pos0: s_skull_pos_down

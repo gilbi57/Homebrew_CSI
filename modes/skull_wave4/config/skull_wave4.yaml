@@ -1,8 +1,52 @@
 #config_version=6
 
+# Wave 4 Multiball Skull
+# Morgue and Right Orbit are lit
+# Shoot to unlit them and finalize the mode
+
 mode:
   start_events: start_mode_skull_wave4
   stop_events: stop_mode_skull_wave4
   priority: 200
 
- 
+light_player:
+  stop_mode_skull_wave4:
+    l_right_orbit_red_arrow: off
+    l_morgue_red_arrow: off
+
+
+shot_profiles:
+  wave4_shot_profile:
+    states:
+      - name: lit
+        show: on
+      - name: unlit
+        show: off
+  #  loop: true
+
+shots:
+  sra1:
+    switch: s_morgue
+    profile: wave4_shot_profile
+    show_tokens:
+      light: l_morgue_red_arrow
+  sra2:
+    switch: s_right_orbit
+    profile: wave4_shot_profile
+    show_tokens:
+      light: l_right_orbit_red_arrow
+
+shot_groups:
+  red_arrow_shots: 
+    shots: sra1, sra2
+    restart_events: mode_skull_wave4_started
+
+variable_player:
+  red_arrow_shots_lit_hit:
+    score: 1_000_000
+    
+event_player:
+  red_arrow_shots_unlit_complete: stop_mode_skull_wave4
+
+  # less than 2 balls -> END
+

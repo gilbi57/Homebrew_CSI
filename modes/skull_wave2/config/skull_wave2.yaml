@@ -1,5 +1,9 @@
 #config_version=6
 
+# Wave 2 Multiball Skull
+# All the 6 bullets lit at start
+# Goal is to unlit all of them
+
 mode:
   start_events: start_mode_skull_wave2
   stop_events: stop_mode_skull_wave2
@@ -48,7 +52,7 @@ shots:
 
 shot_groups:
   bullet_shots: 
-    shots: sa1, sa2, sa3, sa4, sa5, sa6
+    shots: sb1, sb2, sb3, sb4, sb5, sb6
     restart_events: mode_skull_wave2_started
 
 

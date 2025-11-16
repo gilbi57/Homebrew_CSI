@@ -1,5 +1,9 @@
 #config_version=6
 
+# Wave 1 Multiball Skull
+# All the 6 arrows lit at start
+# Goal is to unlit all of them
+
 mode:
   start_events: start_mode_skull_wave1
   stop_events: stop_mode_skull_wave1

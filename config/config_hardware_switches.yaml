@@ -12,124 +12,137 @@ switches:
     
 #! Slingshoots
   s_sling_left:
-    number: 0-0-10
+    number: 1-0-43
   s_sling_right:
-    number: 0-0-11
+    number: 1-0-51
 
   s_start:
-    number: 0-0-1
+    number: 1-0-89
     tags: start
 
-  s_drain:
-    number: 1
+# See how it is workong on the mmachine
+# as it seems not exist !!!!
+#  s_drain:
+#    number: 
     
   s_trough1:
-    number: 2
+    number: 1-0-66
   s_trough2:
-    number: 3
+    number: 1-0-58
   s_trough3:
-    number: 4
+    number: 1-0-50
   s_trough4:
-    number: 5
-#!  s_trough5:
-#!    number: 6
-#!  s_trough6:
-#!    number: 7
-#!    type: NC
+    number: 1-0_42
   s_trough_jam:
-    number: 8
+    number: 1-0-74
     type: NC
-    
+  
   s_plunger_lane:
-    number: 2-6
-  s_launch_button:
-    number: 1-5
+    number: 1-0-82
+#  s_launch_button:
+#    number: 1-5
     
   s_popbumper1:
-    number: 0-0-4
+    number: 1-0-75
   s_popbumper2:
-    number: 0-0-5
+    number: 1-0-83
   s_popbumper3:
-    number: 0-0-6
+    number: 1-0-91
 
-  s_scoop:
-    number: 0-0-7    
+# Lab Scoop
+  s_scoop: 
+    number: 1-0-52  
 
   s_right_orbit:
-    number: 4-0-8
+    number: 1-0-84
     tags: playfield_active
 
   s_right_inlane:
-    number: 5-0-7
+    number: 1-0-59
     tags: playfield_active
   s_right_outlane:
-    number: 5-0-8
+    number: 1-0-67
     tags: playfield_active
   s_left_inlane1:
-    number: 5-0-9
+    number: 1-0-35
     tags: playfield_active
   s_left_inlane2:
-    number: 5-0-10
+    number: 1-0-54
     tags: playfield_active
   s_left_outlane:
-    number: 5-0-11
+    number: 1-0-90
     tags: playfield_active
 
   s_ramp:
-    number:
+    number: 1-0-68
     tags: playfield_active
   
 
   s_morgue:
-    number:
+    number: 1-0-60
 
   s_left_orbit:
-    number:
+    number: 1-0-73
     tags: playfield_active
 
   s_centriguge_enter:
-    number:
+    number: 1-0-36
     tags: playfield_active
 
   s_microscope_left:
-    number:
+    number: 1-0-64
     tags: playfield_active
   s_microscope_right:
-    number:
+    number: 1-0-72
     tags: playfield_active
 
   s_right_spinner:
-    number:
+    number: 1-0-76
+    tags: playfield_active
+
+  s_left_spinner:
+    number: 1-0-80
     tags: playfield_active
 
   # Bullets
   s_bullet1:
-    number:
+    number: 1-0-32
     tags: playfield_active
   s_bullet2:
-    number:
+    number: 1-0-38
     tags: playfield_active
-  s_bullet3:
-    number:
+  s_bullet3: 
+    number: 1-0-61
     tags: playfield_active
   s_bullet4:
-    number:
+    number: 1-0-69
     tags: playfield_active
   s_bullet5:
-    number:
+    number: 1-0-37
+    tags: playfield_active
+
+  # DNA
+  s_DNA_D:
+    number: 1-0-56
+    tags: playfield_active
+  s_DNA_N:
+    number: 1-0-48
+    tags: playfield_active
+  s_DNA_A:
+    number: 1-0-40
     tags: playfield_active
 
   # Skull
   s_skull_pos_up:
-    number:
+    number: 1-0-41
   s_skull_pos_mid:
-    number:
+    number: 1-0-49
   s_skull_pos_down:
-    number:
+    number: 1-0-57
   s_skull_lock1:
-    number:
+    number: 1-0-88
   s_skull_lock2:
-    number:
+    number: 1-0-33
 
 virtual_platform_start_active_switches:
   - s_trough1

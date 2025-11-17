@@ -2,8 +2,13 @@
 
 digital_outputs:
   c_motorized_skull:
-    number:
+    number: 1-0-4
     type: driver
+# Skull_motor_relay: 1-0-5
+
+# Centrifuge
+# Centrifuge_motor: 1-0-3
+# Centrifuge motor_relay: 1-0-2
 
 motors:
   skull_motor:
